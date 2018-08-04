@@ -9,8 +9,3 @@
 "https://{default}/":
     type: upstream
     upstream: "frontend:http"
-
-# Backend.
-"https://{default}/admin/":
-    type: upstream
-    upstream: "backend:http"

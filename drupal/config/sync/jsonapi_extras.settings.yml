@@ -1,5 +1,0 @@
-path_prefix: api
-dependencies:
-  module:
-    - jsonapi
-    - jsonapi_extras

@@ -24,7 +24,7 @@ install_platform_cli: &install_platform_cli
     sudo ln -s ~/.platformsh/bin/platform /usr/local/bin/platform
     # Add platform.sh remote to git.
     if ! git config remote.platform.url > /dev/null; then
-      git remote add platform $PLATFORMSH_PROJECT_NAME@git.eu.platform.sh:$PLATFORMSH_PROJECT_NAME.git
+      git remote add platform $PLATFORMSH_PROJECT_NAME@git.eu-2.platform.sh:$PLATFORMSH_PROJECT_NAME.git
     fi
     # Avoid dynamic hosts issue for git push to platform.
     echo "StrictHostKeyChecking no" > ~/.ssh/config
@@ -41,23 +41,6 @@ jobs:
 
       - run:
           <<: *install_platform_cli
-
-      # TODO: Enable when go live.
-      #- run:
-      #    name: Create backup of production database and force push it to S3.
-      #    command: |
-      #      if [ $CIRCLE_BRANCH == "master" ]; then
-      #        platform ssh -A backend -e $CIRCLE_BRANCH "sh scripts/db_dump.sh"
-      #        platform ssh -A backend -e $CIRCLE_BRANCH "php scripts/upload_backups.php" || true
-      #      fi
-
-      # TODO: Enable when go live.
-      #- run:
-      #    name: Make a snapshot on the production before deploy.
-      #    command: |
-      #      if [ $CIRCLE_BRANCH == "master" ]; then
-      #        platform snapshot:create --yes --no-wait
-      #      fi
 
       - run:
           name: Push branch changes to platform's git repository
@@ -85,47 +68,10 @@ jobs:
               platform sync data -y
             fi
 
-  ###########################################
-  ################# RUN TESTS ###############
-  ###########################################
-  run_tests:
-    <<: *defaults
-    steps:
-      - checkout
-
-      - run:
-          <<: *install_platform_cli
-
-      - run:
-          name: Install CodeSnippet packages
-          command: composer require drupal/coder:^8.2
-
-      - run:
-          name: Run CodeSniffer for the Custom Drupal code.
-          command: |
-            ./vendor/bin/phpcs --config-set installed_paths ../../drupal/coder/coder_sniffer
-            ./vendor/bin/phpcs --config-set show_progress 1
-            ./vendor/bin/phpcs --colors --warning-severity=0 --standard=Drupal ./drupal/web/modules/custom
-
       - run:
           name: Run ESLint for the React application.
           command: platform ssh -A frontend "yarn eslint"
 
-  ######################################
-  ###### CHECK SECURITY UPDATES ########
-  ######################################
-  check_security_updates:
-    <<: *defaults
-    steps:
-      - checkout
-
-      - run:
-          <<: *install_platform_cli
-
-      - run:
-          name: Check security updates for Drupal backend
-          # Connect via SSH and output result of drush pm-updatestatus as a list | count output lines | make sure there are exactly zero lines which means "No security updates found".
-          command: platform ssh -q -A backend "drush ups -r web --security-only --pipe" | wc -l | grep -q "\b0$"
 
 ##########################################################
 ######## WORKFLOWS. ORCHESTRATING THE CI JOBS  ###########
@@ -138,19 +84,3 @@ workflows:
       # A job which pushes changes to platform.sh and executes mandatory
       # operations on the platform.sh to get the site updated.
       - prepare_application
-
-      # Executes tests on recently created environment at Platform.sh.
-      - run_tests:
-          requires:
-            - prepare_application
-
-  # Run security checks for the project every Thursday at 12am.
-  security_updates_scheduled:
-    jobs:
-      - check_security_updates
-    triggers:
-      - schedule:
-          cron: "0 0 * * 4"
-          filters:
-            branches:
-              only: master
