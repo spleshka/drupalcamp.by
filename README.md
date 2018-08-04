@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/spleshka/drupalcamp.by.svg?style=svg)](https://circleci.com/gh/spleshka/drupalcamp.by)
+
 # What is this project about?
 
 The project represents Drupal Camp website for Belorussian Drupal community https://drupalcamp.by
