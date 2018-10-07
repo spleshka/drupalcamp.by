@@ -60,7 +60,7 @@ class HomePage extends React.Component {
             <h5 className="heading-alt">
               <span className="fa fa-calendar-o base-clr-txt" />18 May, 2019
               <span className="fa fa-map-marker base-clr-txt" />
-              <a href="https://goo.gl/maps/xv85HKfZGKo" target="_blank">Hotel Victoria, Minsk, Belarus</a>
+              <a href="https://goo.gl/maps/7jQGA4hJjR32" target="_blank">Hotel Victoria, Minsk, Belarus</a>
             </h5>
             <h1 className="extra-heading">Drupal Camp</h1>
             {/*<div className="btns-container">

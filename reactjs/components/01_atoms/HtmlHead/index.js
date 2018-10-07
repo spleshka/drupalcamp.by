@@ -17,7 +17,7 @@ const HtmlHead = () => {
 
   return (
     <Head>
-      <title>SystemSeed&apos;s Decoupled boilerplate</title>
+      <title>Drupal Camp Belarus, 2019</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
