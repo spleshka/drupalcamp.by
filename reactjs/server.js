@@ -49,6 +49,10 @@ app.prepare()
       maxAge: '7d',
     }));
 
+    expressServer.use('/assets', express.static(`${__dirname}/static/assets`, {
+      maxAge: '7d',
+    }));
+
     expressServer.get('*', (req, res) => handler(req, res));
 
     expressServer.listen(port, (err) => {

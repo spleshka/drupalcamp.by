@@ -1,14 +1,8 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import HomePageLayout from '../components/04_templates/HomePage';
 
 const HomePage = () => (
-  <Container>
-    <Row>
-      <Col>
-        Home page is working!
-      </Col>
-    </Row>
-  </Container>
+  <HomePageLayout/>
 );
 
 export default HomePage;

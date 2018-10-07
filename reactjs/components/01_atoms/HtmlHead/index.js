@@ -22,6 +22,7 @@ const HtmlHead = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <link rel="shortcut icon" href="/static/favicon.ico" type="image/vnd.microsoft.icon" />
+      <link rel="stylesheet" type="text/css" href="/assets/css/style-blue-color.css" />
       {stylesheets}
     </Head>
   );
