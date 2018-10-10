@@ -31,12 +31,13 @@ class HomePage extends React.Component {
         <div className="video-background">
           <div className={`video-foreground ${!this.state.showVideo ? 'hidden' : ''}`}>
             <YouTube
-              videoId="MsumvrHKiQE"
+              videoId="yMiGjuCY0xE"
               opts={{
                 playerVars: {
                   autoplay: 1,
                   loop: 1,
                   mute: 1,
+                  start: 104,
                 }
               }}
               onStateChange={this.onVideoStateChange}
@@ -60,7 +61,7 @@ class HomePage extends React.Component {
             <h5 className="heading-alt">
               <span className="fa fa-calendar-o base-clr-txt" />18 May, 2019
               <span className="fa fa-map-marker base-clr-txt" />
-              <a href="https://goo.gl/maps/7jQGA4hJjR32" target="_blank">Hotel Victoria, Minsk, Belarus</a>
+              <a href="https://goo.gl/maps/T2KQCBx8oxE2" target="_blank">Hotel Renaissance , Minsk, Belarus</a>
             </h5>
             <h1 className="extra-heading">Drupal Camp</h1>
             {/*<div className="btns-container">
