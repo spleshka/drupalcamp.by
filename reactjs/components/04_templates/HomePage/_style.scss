@@ -20,6 +20,7 @@ body {
     .heading-alt {
       letter-spacing: 3px;
       margin-bottom: 20px;
+      text-shadow: 1px 1px 1px black;
 
       span {
         margin-right: 8px;
@@ -29,6 +30,10 @@ body {
         }
       }
     }
+  }
+
+  .extra-heading {
+    text-shadow: 1px 1px 1px black;
   }
 
   .video-background {
