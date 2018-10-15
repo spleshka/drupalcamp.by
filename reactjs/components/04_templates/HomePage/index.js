@@ -17,6 +17,11 @@ class HomePage extends React.Component {
     // Data == 1 means that video has started playing.
     if (event.data === 1) {
       this.setState({ showVideo: true });
+
+      // In 120 seconds of playing the video jump back to the beginning.
+      setTimeout(() => {
+        event.target.seekTo(5);
+      }, 120000)
     }
     // Data == 0 means that video has stopped.
     else if (event.data === 0) {
@@ -35,10 +40,9 @@ class HomePage extends React.Component {
               opts={{
                 playerVars: {
                   autoplay: 1,
-                  loop: 1,
                   mute: 1,
                   start: 5,
-                }
+                },
               }}
               onStateChange={this.onVideoStateChange}
             />
