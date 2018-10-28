@@ -16,7 +16,9 @@
     "prop-types": "^15.6.2",
     "raw-loader": "^0.5.1",
     "react": "^16.4.1",
+    "react-countup": "^4.0.0",
     "react-dom": "^16.4.1",
+    "react-on-screen": "^2.0.4",
     "react-redux": "^5.0.7",
     "react-youtube": "^7.7.0",
     "redux": "^4.0.0",
@@ -26,7 +28,8 @@
     "superagent": "^3.8.3",
     "superagent-defaults": "^0.1.14",
     "superagent-jsonapify": "^1.4.5",
-    "superagent-prefix": "^0.0.2"
+    "superagent-prefix": "^0.0.2",
+    "yandex-map-react": "^1.1.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.6",

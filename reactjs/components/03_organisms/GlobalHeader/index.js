@@ -1,7 +1,8 @@
 import React from 'react';
+import MainNavigation from '../../02_moleculas/MainNavigation';
 
 const GlobalHeader = () => (
-  null
+  <MainNavigation />
 );
 
 export default GlobalHeader;

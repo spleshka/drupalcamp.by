@@ -3,9 +3,11 @@ import PropTypes from 'prop-types';
 import GlobalHeader from '../../03_organisms/GlobalHeader';
 import GlobalFooter from '../../03_organisms/GlobalFooter';
 
-const GlobalLayout = ({ children }) => (
+const GlobalLayout = ({ children, withMenu }) => (
   <Fragment>
+    {withMenu &&
     <GlobalHeader />
+    }
     <div className="content">
       {children}
     </div>
@@ -15,6 +17,7 @@ const GlobalLayout = ({ children }) => (
 
 GlobalLayout.propTypes = {
   children: PropTypes.node.isRequired,
+  withMenu: PropTypes.bool.isRequired,
 };
 
 export default GlobalLayout;

@@ -13,6 +13,7 @@ class Application extends App {
   static async getInitialProps({ Component, res, ctx }) {
     const initialProps = {
       isServer: !!ctx.req,
+      withMenu: true,
     };
 
     // Call to getInitialProps() from the Page component.
@@ -45,7 +46,7 @@ class Application extends App {
         <Provider store={store}>
           <Fragment>
             <HtmlHead />
-            <SiteLayout>
+            <SiteLayout withMenu={pageProps.withMenu}>
               {statusCode === 200
               && <Component {...pageProps} />
               }
