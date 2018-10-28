@@ -3,6 +3,8 @@ import App, { Container } from 'next/app';
 import { Provider } from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
+import withGA from 'next-ga';
+import { Router } from '../routes';
 import HtmlHead from '../components/01_atoms/HtmlHead';
 import configureStore from '../store/store';
 import ErrorMessage from '../components/01_atoms/ErrorMessage';
@@ -61,4 +63,4 @@ class Application extends App {
   }
 }
 
-export default withRedux(configureStore)(withReduxSaga(Application));
+export default withRedux(configureStore)(withReduxSaga(withGA('UA-128259970-1', Router)(Application)));
