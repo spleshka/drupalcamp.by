@@ -5,5 +5,5 @@
 .docker/docker-compose.override.yml
 .env
 
-# Local source files.
-Ventcamp_HTML
+# Local theme source files.
+ventcamp
