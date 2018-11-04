@@ -9,7 +9,7 @@ class FrontpageAbout extends React.Component {
           <span className="icon section-icon icon-multimedia-12" />
           <h3>Drupal Camp Belarus 2019</h3>
           <p className="text-alt">
-            Lorem ipsum dolor sit <span className="highlight">amet?</span>
+            International <span className="highlight">Drupal</span> & <span className="highlight">Potato</span> lovers united.
           </p>
           <br/>
           <br/>
@@ -37,12 +37,12 @@ class FrontpageAbout extends React.Component {
                   </p>
                   <p>
                     As true Drupal community members, we can't live without parties. The evening before the event we've planned a marvellous <strong>event</strong> where everyone
-                    is welcome to warm-up before the day of learning, enjoy <strong>Belorussian cuisine</strong> and wide variety of new <strong>authentic drinks</strong>.
+                    is welcome to warm-up before the day of learning, enjoy <strong>Belarusian cuisine</strong> and wide variety of new <strong>authentic drinks</strong>.
                     As well as that, we've got <strong>great news for speakers and volunteers</strong>: they are invited to enjoy the post event party in the countryside with national spirit and character!
                   </p>
                   <div className="row btns-block">
-                    <a href="#" className="btn">Submit Session</a>
-                    <a href="#" className="btn">Join as Volunteer</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform" target="_blank" className="btn">Submit Session</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform" target="_blank" className="btn">Join as Volunteer</a>
                   </div>
                 </div>
               </div>

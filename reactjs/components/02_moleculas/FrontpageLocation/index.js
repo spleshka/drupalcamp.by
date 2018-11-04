@@ -17,10 +17,22 @@ const FrontpageLocation = () => (
           <h3>Location</h3>
 
           <ul className="list">
-            <li><i className="fa fa-map-marker" />Belarus, Renaissance Minsk Hotel</li>
-            <li><i className="fa fa-envelope" /><a href="mailto:info@drupalcamp.by">info@drupalcamp.by</a></li>
-            <li><i className="fa fa-twitter" /><a href="https://twitter.com/@DrupalCampBy">DrupalCampBy</a></li>
-            <li><i className="fa fa-clock-o" />10am - 7pm, 18 May 2019</li>
+            <li>
+              <i className="fa fa-map-marker" />
+              <a href="https://yandex.com/maps/-/CBBd62HOKB" target="_blank">Belarus, Renaissance Minsk Hotel</a>
+            </li>
+            <li>
+              <i className="fa fa-envelope" />
+              <a href="mailto:info@drupalcamp.by">info@drupalcamp.by</a>
+            </li>
+            <li>
+              <i className="fa fa-twitter" />
+              <a href="https://twitter.com/@DrupalCampBy" target="_blank">DrupalCampBy</a>
+            </li>
+            <li>
+              <i className="fa fa-clock-o" />
+              10am - 7pm, 18 May 2019
+            </li>
           </ul>
 
         </div>

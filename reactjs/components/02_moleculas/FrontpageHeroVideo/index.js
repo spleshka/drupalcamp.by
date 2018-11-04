@@ -1,5 +1,6 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import { scrollToElement } from '../../../utils/scrollTo';
 
 class FrontpageHeroVideo extends React.Component {
 
@@ -73,6 +74,10 @@ class FrontpageHeroVideo extends React.Component {
                 </a>
               </div>*/}
         </div>
+      </div>
+
+      <div className="down-arrow" onClick={() => scrollToElement('navigation')}>
+        <i className="arrow" />
       </div>
 
     </section>

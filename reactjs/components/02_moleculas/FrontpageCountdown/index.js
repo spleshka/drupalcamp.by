@@ -8,20 +8,22 @@ import TrackVisibility from 'react-on-screen';
 
 const data = [
   {
-    count: 20,
+    count: 25,
+    suffix: '+',
     label: 'speakers',
   },
   {
-    count: 30,
-    label: 'days',
+    count: 300,
+    suffix: '+',
+    label: 'visitors',
   },
   {
-    count: 40,
-    label: 'workshops',
+    count: 4,
+    label: 'tracks',
   },
   {
-    count: 50,
-    label: 'speeches',
+    count: '∞',
+    label: 'opportunities',
   },
 ];
 
@@ -38,16 +40,22 @@ class FrontpageCountdown extends React.Component {
                   <div className="counter-box">
                     <div className="counter-content">
                       <span className="count">
+                        {Number.isFinite(item.count) &&
                         <TrackVisibility once>
-                         {({ isVisible }) => (isVisible
-                           ? (
-                             <CountUp
-                               end={item.count}
-                               duration={2}
-                             />
-                           ) : 0)
-                         }
-                         </TrackVisibility>
+                          {({isVisible}) => (isVisible
+                            ? (
+                              <>
+                                <CountUp
+                                  end={item.count}
+                                  duration={2}
+                                />
+                                {item.suffix && item.suffix}
+                              </>
+                            ) : 0)
+                          }
+                        </TrackVisibility>
+                        }
+                        {!Number.isFinite(item.count) && item.count}
                       </span>
                       <p className="title">{item.label}</p>
                     </div>

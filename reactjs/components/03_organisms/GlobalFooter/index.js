@@ -7,8 +7,9 @@ const GlobalFooter = () => (
 
         <div className="col-md-6">
           <ul className="footer-nav">
-            <li className="footer-nav-item"><a href="#">Contact</a></li>
-            <li className="footer-nav-item"><a href="#">Code of Conduct</a></li>
+            <li className="footer-nav-item">
+              <a href="https://www.drupal.org/dcoc" target="_blank">Code of Conduct</a>
+            </li>
           </ul>
         </div>
 
@@ -16,7 +17,9 @@ const GlobalFooter = () => (
 
           <ul className="socials-nav align-right">
             <li className="socials-nav-item">
-              <a href="#"><span className="fa fa-twitter" /></a>
+              <a href="https://twitter.com/@DrupalCampBy" target="_blank">
+                <span className="fa fa-twitter" />
+              </a>
             </li>
           </ul>
 
