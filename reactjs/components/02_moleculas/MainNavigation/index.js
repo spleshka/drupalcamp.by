@@ -5,6 +5,22 @@ import { scrollToElement } from '../../../utils/scrollTo';
 
 class MainNavigation extends React.Component {
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      isMobileMenuOpened: false
+    };
+
+    this.mobileVisibilityToggle = this.mobileVisibilityToggle.bind(this);
+  }
+
+  mobileVisibilityToggle() {
+    this.setState(state => ({
+      isMobileMenuOpened: !state.isMobileMenuOpened
+    }));
+  }
+
   render() {
     const { router } = this.props;
     return (
@@ -12,10 +28,14 @@ class MainNavigation extends React.Component {
         <div className="header-wrapper">
           <div className="container">
             <div className="col-xs-12 visible-xs navigation-header">
-              <a href="#" className="buy-btn">Buy Tickets</a>
-              <button className="navbar-toggle collapsed" data-toggle="collapse"
-                      data-target="#navigation7" aria-expanded="false"
-                      aria-controls="navigation3">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform"
+                className="buy-btn"
+                target="_blank"
+              >
+                Submit Session
+              </a>
+              <button className="navbar-toggle collapsed" onClick={this.mobileVisibilityToggle}>
                 <span className="icon-bar" />
                 <span className="icon-bar" />
                 <span className="icon-bar" />
@@ -23,7 +43,7 @@ class MainNavigation extends React.Component {
             </div>
 
             <div className="col-xs-12 navigation-container">
-              <div id="navigation7" className="navbar-collapse collapse">
+              <div id="navigation7" className={`navbar-collapse collapse ${this.state.isMobileMenuOpened ? 'in' : ''}`}>
                 <ul className="navigation-list pull-left light-text">
                   <li className="navigation-item">
                     <Link to="/">
@@ -44,15 +64,28 @@ class MainNavigation extends React.Component {
                     <a className={`navigation-link dropdown-toggle ${router.route === '/sponsors' || router.route === '/become-sponsor' ? 'active' : ''}`}>Sponsors</a>
                     <ul className="dropdown-menu">
                       <li className="navigation-item">
-                        <Link to="/become-sponsor">
-                          <a className="navigation-link">Become a sponsor</a>
-                        </Link>
+                        <a
+                          className="navigation-link"
+                          target="_blank"
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform"
+                        >
+                          Become a sponsor
+                        </a>
                       </li>
                       <li className="navigation-item">
+                        <a
+                          className="navigation-link"
+                          target="_blank"
+                          href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform"
+                        >
+                          Download brochure
+                        </a>
+                      </li>
+                      {/*<li className="navigation-item">
                         <Link to="/sponsors">
                           <a className="navigation-link">Our sponsors</a>
                         </Link>
-                      </li>
+                      </li>*/}
                     </ul>
                   </li>
                   {/*<li className="navigation-item">
@@ -77,7 +110,7 @@ class MainNavigation extends React.Component {
 
                 <a
                   href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform"
-                  className="hidden-xs pull-right buy-btn"
+                  className="hidden-xs pull-right btn btn-outline-clr btn-sm btn-session"
                   target="_blank"
                 >
                   Submit Session

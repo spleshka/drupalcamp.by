@@ -5,10 +5,14 @@
 
   #logo {
     img {
-      height: 220px;
-      margin-bottom: 100px;
-      @media (max-width: 350px) {
-        height: 120px;
+      height: 120px;
+      margin-bottom: 60px;
+      @media (min-width: 350px) {
+        height: 150px;
+      }
+      @media (min-width: 500px) {
+        height: 220px;
+        margin-bottom: 100px;
       }
     }
   }
@@ -17,7 +21,7 @@
     margin: auto;
     position: relative;
     z-index: 2;
-    padding: 20px 0;
+    padding: 60px 0 20px;
 
     .heading-alt {
       letter-spacing: 3px;
@@ -43,11 +47,14 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    z-index: 99999;
-    bottom: 50px;
+    z-index: 10;
+    bottom: 30px;
     left: calc(50% - 25px);
     text-align: center;
     transition: .3s all;
+    @media (min-width: 500px) {
+      bottom: 50px;
+    }
     &:hover {
       border-color: #1ac6ff;
 
