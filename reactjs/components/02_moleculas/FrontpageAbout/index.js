@@ -42,7 +42,7 @@ class FrontpageAbout extends React.Component {
                   </p>
                   <div className="row btns-block">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform" target="_blank" className="btn">Submit Session</a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform" target="_blank" className="btn">Join as Volunteer</a>
+                    <a href="https://docs.google.com/forms/d/1Phr9Aurs-GSTfwN7U68uT10nYU2ubCHMPxdjhVJ0fqY" target="_blank" className="btn">Join as Volunteer</a>
                   </div>
                 </div>
               </div>

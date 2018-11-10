@@ -67,7 +67,7 @@ class MainNavigation extends React.Component {
                         <a
                           className="navigation-link"
                           target="_blank"
-                          href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform"
+                          href="https://docs.google.com/forms/d/1rjG1ig5nCnM08NM7P1XnIxl-MlcugIQQQltRAcSb21E/viewform"
                         >
                           Become a sponsor
                         </a>
@@ -76,7 +76,7 @@ class MainNavigation extends React.Component {
                         <a
                           className="navigation-link"
                           target="_blank"
-                          href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform"
+                          href="/static/SponsorshipDrupalCampBelarus2019.pdf"
                         >
                           Download brochure
                         </a>
