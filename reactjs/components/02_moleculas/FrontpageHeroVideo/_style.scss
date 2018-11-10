@@ -52,7 +52,9 @@
     left: calc(50% - 25px);
     text-align: center;
     transition: .3s all;
+    display: none;
     @media (min-width: 500px) {
+      display: block;
       bottom: 50px;
     }
     &:hover {
