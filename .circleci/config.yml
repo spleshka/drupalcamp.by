@@ -68,10 +68,6 @@ jobs:
               platform sync data -y
             fi
 
-      - run:
-          name: Run ESLint for the React application.
-          command: platform ssh -A frontend "yarn eslint"
-
 
 ##########################################################
 ######## WORKFLOWS. ORCHESTRATING THE CI JOBS  ###########
