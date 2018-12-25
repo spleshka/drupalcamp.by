@@ -99,6 +99,11 @@ class MainNavigation extends React.Component {
                     </Link>
                   </li>*/}
                   <li className="navigation-item">
+                    <Link to="/organizers">
+                      <a className={`navigation-link ${router.route === '/organizers' ? 'active' : ''}`}>Organizers</a>
+                    </Link>
+                  </li>
+                  <li className="navigation-item">
                     <a
                       className="navigation-link"
                       onClick={() => router.route === '/' ? scrollToElement('contacts') : Router.pushRoute('/#contacts')}
