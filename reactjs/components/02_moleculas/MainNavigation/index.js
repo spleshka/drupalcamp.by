@@ -55,11 +55,11 @@ class MainNavigation extends React.Component {
                       <a className={`navigation-link ${router.route === '/schedule' ? 'active' : ''}`}>Schedule</a>
                     </Link>
                   </li>*/}
-                  {/*<li className="navigation-item">
+                  <li className="navigation-item">
                     <Link to="/tickets">
                       <a className={`navigation-link ${router.route === '/tickets' ? 'active' : ''}`}>Tickets</a>
                     </Link>
-                  </li>*/}
+                  </li>
                   <li className="navigation-item dropdown">
                     <a className={`navigation-link dropdown-toggle ${router.route === '/sponsors' || router.route === '/become-sponsor' ? 'active' : ''}`}>Sponsors</a>
                     <ul className="dropdown-menu">

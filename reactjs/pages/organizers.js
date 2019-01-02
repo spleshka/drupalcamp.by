@@ -78,7 +78,7 @@ const OrganizersPage = () => (
 
         <div className="col-sm-4">
           <div className="speaker">
-            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '200px', border: '2px solid #e9e9e9', padding: '20px' }}>
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
               <img src="/assets/img/organizers/drupalsquad.png" alt="DrupalSquad / Anakreon" className="img-responsive" style={{ margin: 'auto' }} />
             </div>
             {/*<h3 className="name">DrupalSquad / Anakreon</h3>*/}
@@ -93,7 +93,7 @@ const OrganizersPage = () => (
 
         <div className="col-sm-4">
           <div className="speaker">
-            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '200px', border: '2px solid #e9e9e9', padding: '20px' }}>
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
               <img src="/assets/img/organizers/colours.jpg" alt="Colours" className="img-responsive" style={{ margin: 'auto' }} />
             </div>
             {/*<h3 className="name">Colours</h3>*/}
@@ -108,7 +108,7 @@ const OrganizersPage = () => (
 
         <div className="col-sm-4">
           <div className="speaker">
-            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '200px', border: '2px solid #e9e9e9', padding: '20px' }}>
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
               <img src="/assets/img/organizers/systemseed.png" alt="SystemSeed" className="img-responsive" style={{ margin: 'auto' }} />
             </div>
             {/*<h3 className="name">SystemSeed</h3>*/}
