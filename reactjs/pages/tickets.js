@@ -23,7 +23,7 @@ const Tickets = () => (
                 <li className="disabled"><span className="fa fa-times absent-icon" />Invite to special after-party event</li>
               </ul>
             </div>
-            <a href="https://bezkassira.by/buy/5234/" target="_blank" className="buy-btn">
+            <a href="https://bezkassira.by/en/buy/5234/" target="_blank" className="buy-btn">
               <div className="centered">
                 <div className="price"><span className="currency">$</span>25</div>
                 <div><small>50 BYN</small></div>
@@ -92,7 +92,7 @@ const Tickets = () => (
                 <li><span className="fa fa-check check-icon" />Invite to special after-party event</li>
               </ul>
             </div>
-            <a href="https://bezkassira.by/buy/5234/" target="_blank" className="buy-btn">
+            <a href="https://bezkassira.by/en/buy/5234/" target="_blank" className="buy-btn">
               <div className="centered">
                 <div className="price"><span className="currency">$</span>100</div>
                 <div><small>200 BYN</small></div>
