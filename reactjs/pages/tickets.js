@@ -6,7 +6,7 @@ const Tickets = () => (
       <h5 className="heading-alt">Event tickets</h5>
 
       <p>Students can get <span className="highlight">free scholarship</span> to attend the event.<br/>
-        Write us an email at <span className="highlight">info@drupalcamp.by</span> with the query to obtain a free ticket.</p>
+        Write us an email at <span className="highlight">info@drupalcamp.by</span> with the request to obtain a free ticket.</p>
 
       <div className="row">
 
@@ -25,8 +25,9 @@ const Tickets = () => (
             </div>
             <a href="https://bezkassira.by/en/buy/5234/" target="_blank" className="buy-btn">
               <div className="centered">
-                <div className="price"><span className="currency">$</span>25</div>
-                <div><small>50 BYN</small></div>
+                <div className="price" style={{ marginBottom: 0 }}>50</div>
+                <div className="price" style={{ fontSize: '20px' }}>BYN</div>
+                <div style={{ marginBottom: '20px' }}><small>~20 EUR</small></div>
                 <h6 className="heading-alt">Buy now</h6>
               </div>
             </a>
@@ -48,8 +49,9 @@ const Tickets = () => (
             </div>
             <a target="_blank" className="buy-btn" style={{ opacity: 0.4 }}>
               <div className="centered">
-                <div className="price"><span className="currency">$</span>35</div>
-                <div><small>70 BYN</small></div>
+                <div className="price" style={{ marginBottom: 0 }}>70</div>
+                <div className="price" style={{ fontSize: '20px' }}>BYN</div>
+                <div style={{ marginBottom: '20px' }}><small>~28 EUR</small></div>
                 <h6 className="heading-alt">Not available</h6>
               </div>
             </a>
@@ -71,8 +73,9 @@ const Tickets = () => (
             </div>
             <a target="_blank" className="buy-btn" style={{ opacity: 0.4 }}>
               <div className="centered">
-                <div className="price"><span className="currency">$</span>50</div>
-                <div><small>100 BYN</small></div>
+                <div className="price" style={{ marginBottom: 0 }}>100</div>
+                <div className="price" style={{ fontSize: '20px' }}>BYN</div>
+                <div style={{ marginBottom: '20px' }}><small>~40 EUR</small></div>
                 <h6 className="heading-alt">Not available</h6>
               </div>
             </a>
@@ -94,8 +97,9 @@ const Tickets = () => (
             </div>
             <a href="https://bezkassira.by/en/buy/5234/" target="_blank" className="buy-btn">
               <div className="centered">
-                <div className="price"><span className="currency">$</span>100</div>
-                <div><small>200 BYN</small></div>
+                <div className="price" style={{ marginBottom: 0 }}>250</div>
+                <div className="price" style={{ fontSize: '20px' }}>BYN</div>
+                <div style={{ marginBottom: '20px' }}><small>~100 EUR</small></div>
                 <h6 className="heading-alt">Buy now</h6>
               </div>
             </a>

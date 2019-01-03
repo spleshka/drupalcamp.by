@@ -36,7 +36,7 @@ const OrganizersPage = () => (
           </div>
           <h3 className="name">Evgeniy Zenko</h3>
           <p className="text-alt">
-            <small>Team Lead @ Colours</small>
+            <small>Technical Lead @ Colours</small>
           </p>
           <ul className="speaker-socials">
             <li><a href="https://twitter.com/zeuty" target="_blank"><span className="fa fa-twitter"/></a></li>
