@@ -36,7 +36,6 @@ class HomePage extends React.Component {
           <MainNavigation />
           <FrontpageCountdown />
           <FrontpageIntro />
-
           <FrontpageBuyTickets />
           <Newsletter/>
           <FrontpageLocation />

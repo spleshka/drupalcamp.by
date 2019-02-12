@@ -4,10 +4,10 @@ import Link from 'next/link';
 class FrontpageBuyTickets extends React.Component {
   render() {
     return (
-      <section id="register" className="section overlay overlay-clr bg-cover bg4 light-text align-center">
+      <section id="register" className="section overlay light-text align-center">
         <div className="container">
 
-          <h2>Purchase your ticket now</h2>
+          <h2>Get your ticket now!</h2>
           <p>Become a part of the biggest Belarusian Drupal event ever.</p>
 
           <br/>
@@ -15,7 +15,7 @@ class FrontpageBuyTickets extends React.Component {
 
           <Link href="/tickets">
             <a className="btn btn-lg btn-outline">
-              Give me my ticket!
+              Give me my ticket
             </a>
           </Link>
 
