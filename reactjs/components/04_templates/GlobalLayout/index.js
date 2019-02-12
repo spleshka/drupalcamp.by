@@ -1,16 +1,25 @@
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
+import { StickyContainer } from 'react-sticky';
 import GlobalHeader from '../../03_organisms/GlobalHeader';
 import GlobalFooter from '../../03_organisms/GlobalFooter';
 
 const GlobalLayout = ({ children, withMenu }) => (
   <Fragment>
+
     {withMenu &&
-    <GlobalHeader />
+    <StickyContainer lassName="content">
+      <GlobalHeader/>
+      {children}
+    </StickyContainer>
     }
+
+    {!withMenu &&
     <div className="content">
       {children}
     </div>
+    }
+
     <GlobalFooter />
   </Fragment>
 );

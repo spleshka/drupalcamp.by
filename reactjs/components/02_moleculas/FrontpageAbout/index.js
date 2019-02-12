@@ -9,7 +9,7 @@ class FrontpageAbout extends React.Component {
           <span className="icon section-icon icon-multimedia-12" />
           <h3>Drupal Camp Belarus 2019</h3>
           <p className="text-alt">
-            International <span className="highlight">Drupal</span> & <span className="highlight">Potato</span> lovers united.
+            International <span className="highlight">Drupal</span>, <span className="highlight">Beer</span> & <span className="highlight">Potato</span> lovers united.
           </p>
           <br/>
           <br/>
