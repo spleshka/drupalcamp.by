@@ -2,9 +2,11 @@
   margin-top: 30px;
 }
 
-#navigation {
-  height: 100px;
-  overflow: hidden;
+@media (min-width: 768px) {
+  #navigation {
+    height: 100px;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 767px) {
