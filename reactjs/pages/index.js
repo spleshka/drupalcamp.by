@@ -34,9 +34,9 @@ class HomePage extends React.Component {
         <FrontpageHeroVideo />
         <StickyContainer>
           <MainNavigation />
-          <FrontpageCountdown />
           <FrontpageIntro />
           <FrontpageBuyTickets />
+          <FrontpageCountdown />
           <Newsletter/>
           <FrontpageLocation />
         </StickyContainer>

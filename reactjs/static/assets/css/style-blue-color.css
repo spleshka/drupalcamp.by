@@ -6336,7 +6336,7 @@ button[type="submit"] .loading {
     right: 0;
     left: 0;
     z-index: 1000;
-    height: 91px;
+    height: 91px !important;
   }
   .header .fade-in-on-stick {
     display: inline-block;

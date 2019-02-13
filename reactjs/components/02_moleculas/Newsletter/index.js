@@ -19,7 +19,7 @@ class Newsletter extends React.Component {
 
   render() {
     return (
-      <section id="sign_up" className="section bg-cover overlay bg5 light-text align-center">
+      <section id="sign_up" className="section  overlay light-text align-center">
         <div className="container">
           <h2>Keep me <span className="highlight">updated</span></h2>
           <small>No Spam - Only latest news, price and activity updates</small>
