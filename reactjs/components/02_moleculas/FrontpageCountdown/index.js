@@ -31,7 +31,7 @@ class FrontpageCountdown extends React.Component {
 
   render() {
     return (
-      <section id="counters" className="section align-center overlay  light-text" style={{ borderTop: '1px solid #1ac6ff', borderBottom: '1px solid #1ac6ff' }}>
+      <section id="counters" className="section align-center light-text">
         <div className="container">
           <div className="row counters-wrapper">
             {data.map(item => (
