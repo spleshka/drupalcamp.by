@@ -17,6 +17,7 @@ class MainNavigation extends React.Component {
 
     this.mobileVisibilityToggle = this.mobileVisibilityToggle.bind(this);
     this.onWindowResize = this.onWindowResize.bind(this);
+    this.onContactLinkClick = this.onContactLinkClick.bind(this);
   }
 
   componentDidMount() {
@@ -26,6 +27,17 @@ class MainNavigation extends React.Component {
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.onWindowResize);
+  }
+
+  onContactLinkClick() {
+    const { router } = this.props;
+    if (router.route === '/') {
+      scrollToElement('contacts');
+      this.setState({ isMobileMenuOpened: false });
+    }
+    else {
+      Router.pushRoute('/#contacts');
+    }
   }
 
   mobileVisibilityToggle() {
@@ -138,7 +150,7 @@ class MainNavigation extends React.Component {
                 <li className="navigation-item">
                   <a
                     className="navigation-link"
-                    onClick={() => router.route === '/' ? scrollToElement('contacts') : Router.pushRoute('/#contacts')}
+                    onClick={this.onContactLinkClick}
                   >
                     Contacts
                   </a>
