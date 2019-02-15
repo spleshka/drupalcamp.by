@@ -3,9 +3,12 @@
 }
 
 @media (min-width: 768px) {
-  #navigation {
-    height: 100px;
-    overflow: hidden;
+  #navigation7 > ul {
+    margin-bottom: 0;
+
+    & > li {
+      margin-bottom: 0;
+    }
   }
 }
 
