@@ -8,6 +8,10 @@ import TrackVisibility from 'react-on-screen';
 
 const data = [
   {
+    count: 2,
+    label: 'days',
+  },
+  {
     count: 25,
     suffix: '+',
     label: 'speakers',
@@ -21,17 +25,13 @@ const data = [
     count: 4,
     label: 'tracks',
   },
-  {
-    count: '∞',
-    label: 'opportunities',
-  },
 ];
 
 class FrontpageCountdown extends React.Component {
 
   render() {
     return (
-      <section id="counters" className="section align-center light-text">
+      <section id="counters" className="section overlay align-center light-text">
         <div className="container">
           <div className="row counters-wrapper">
             {data.map(item => (

@@ -1,12 +1,17 @@
 import React from 'react';
 
 const Tickets = () => (
-  <section className="section align-center">
+  <section className="section align-center mobile-padding">
     <div className="container">
-      <h5 className="heading-alt">Event tickets</h5>
+
+      <span className="icon section-icon icon-badges-votes-12" />
+      <h3 className="heading-alt">Buy tickets</h3>
 
       <p>Students can get <span className="highlight">free scholarship</span> to attend the event.<br/>
         Write us an email at <span className="highlight">info@drupalcamp.by</span> with the request to obtain a free ticket.</p>
+
+      <br/>
+      <br/>
 
       <div className="row">
 

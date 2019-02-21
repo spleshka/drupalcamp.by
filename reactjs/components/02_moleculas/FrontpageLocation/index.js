@@ -31,7 +31,7 @@ const FrontpageLocation = () => (
             </li>
             <li>
               <i className="fa fa-clock-o" />
-              10am - 7pm, 18 May 2019
+              10am - 7pm, 18-19 May 2019
             </li>
           </ul>
 

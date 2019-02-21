@@ -1,3 +1,16 @@
 .content {
 
 }
+
+@media (min-width: 768px) {
+  .speakers .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobile-padding {
+    padding-top: 140px;
+  }
+}

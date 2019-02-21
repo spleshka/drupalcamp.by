@@ -13,7 +13,7 @@ const FrontpageIntro = () => (
           <h4 style={{ marginBottom: '20px' }}>By the People for the People</h4>
 
           <p>
-            <strong>Drupal Camp Belarus</strong> is an international one-day event full of sessions and contribution activities,
+            <strong>Drupal Camp Belarus</strong> is an international 2 days event full of sessions and contribution activities,
             bringing together people who use, develop, design and support Drupal world, as well as those exploring
             joining the Drupal community and guests from other communities.
           </p>
@@ -37,7 +37,7 @@ const FrontpageIntro = () => (
 
           <p>
             Comfortable venue, <strong>4 tracks</strong> of sessions, <strong>BOFs</strong>,
-            mentored <strong>Code Sprint</strong>, tasty <strong>lunch</strong>, coffee/tea/snacks during the day – everything
+            mentored <strong>Contribution Day</strong>, tasty <strong>lunch</strong>, coffee/tea/snacks during the day – everything
             to enjoy the talks from experienced speakers and other brightest minds within the Drupal community and beyond.
           </p>
 
@@ -60,7 +60,7 @@ const FrontpageIntro = () => (
       />
       <div className="col-sm-6 fullwidth-column">
         <article>
-          <h4 style={{ marginBottom: '20px' }}>Has anyone said "Party"?</h4>
+          <h4 style={{ marginBottom: '20px' }}>Did someone say Party?</h4>
 
           <p>
             As true Drupal community members, we can't live without parties. The night before the event (Friday) we've got planned a marvellous party where everyone
@@ -68,7 +68,7 @@ const FrontpageIntro = () => (
           </p>
 
           <p>
-            Do you want even more parties & fun? Everyone who helps to make this event happen is invited to a special <strong>THANK YOU PARTY</strong> in the countryside with national spirit and character!
+            Do you want even more parties & fun? Everyone who helps to make this event happen is invited to a special <strong>THANK YOU PARTY</strong> with national spirit and character!
           </p>
 
           <div className="row btns-block" style={{ margin: 0, paddingBottom: 0 }}>

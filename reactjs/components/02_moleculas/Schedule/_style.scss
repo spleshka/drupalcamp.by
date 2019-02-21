@@ -1,0 +1,38 @@
+@media (min-width: 768px) {
+  .nav.nav-schedule {
+
+    > li {
+      width: 33%;
+    }
+  }
+
+  .schedule-heading {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 767px) {
+  .nav, .nav.nav-tabs, .nav.nav-schedule, .schedule .tab-content .nav.nav-schedule, .tabs-vertical .nav.nav-tabs {
+    position: static;
+    padding: 0;
+    margin: 0;
+    max-height: none;
+    display: block;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    
+    a {
+      text-align: center !important;
+    }
+  }
+
+  .schedule-heading {
+    margin-bottom: 30px;
+  }
+
+  .schedule {
+    margin-bottom: 20px;
+  }
+}

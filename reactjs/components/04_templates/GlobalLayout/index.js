@@ -8,7 +8,7 @@ const GlobalLayout = ({ children, withMenu }) => (
   <Fragment>
 
     {withMenu &&
-    <StickyContainer lassName="content">
+    <StickyContainer className="content">
       <GlobalHeader/>
       {children}
     </StickyContainer>

@@ -28,6 +28,13 @@
       margin-bottom: 20px;
       text-shadow: 1px 1px 1px black;
 
+      .event-item {
+        @media (max-width: 767px) {
+          display: block;
+          margin-bottom: 24px;
+        }
+      }
+
       span {
         margin-right: 8px;
 
