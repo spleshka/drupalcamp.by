@@ -61,7 +61,7 @@ const volunteers = [
   {
     name: 'Nikolai Tatianenko',
     nickname: 'nikolai.tatianenko',
-    position: 'Lead Software Engineer @ Epam Systems',
+    position: 'Lead Software Engineer @ EPAM Systems',
   },
   {
     name: 'Andrej Podlubnyj',
@@ -72,6 +72,21 @@ const volunteers = [
     name: 'Alex Domasevich',
     nickname: 'alex.domasevich',
     position: 'Team Lead @ Drupal Teams',
+  },
+  {
+    name: 'Igor Cheledinov',
+    nickname: 'igor.cheledinov',
+    position: 'Solutions Architect @ DrupalSquad',
+  },
+  {
+    name: 'Alexander Sukhodolsky',
+    nickname: 'alexander.sukhodolsky',
+    position: 'Software Engineer @ DrupalSquad',
+  },
+  {
+    name: 'Andrei Tabolin',
+    nickname: 'andrei.tabolin',
+    position: 'Senior Software Engineer @ EPAM Systems',
   },
 ];
 
@@ -88,16 +103,18 @@ const OrganizersPage = () => (
         <br/>
         <br/>
 
+        <div className="row">
         {team.map(organizer => (
           <div className="col-12 col-sm-4" key={organizer.name}>
             <Speaker {...organizer} />
           </div>
         ))}
+        </div>
 
       </div>
     </section>
 
-    <section id="organizers" className="section align-center mobile-padding">
+    <section id="organizers" className="section align-center">
       <div className="container">
         <span className="icon section-icon icon-faces-users-03" />
         <h3>Meet Volunteers</h3>
@@ -108,11 +125,13 @@ const OrganizersPage = () => (
         <br/>
         <br/>
 
+        <div className="row" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
         {volunteers.map(volunteer => (
-          <div className="col-12 col-sm-3" key={volunteer.name}>
+          <div className="col-12 col-sm-4 col-md-3" key={volunteer.name}>
             <Speaker {...volunteer} />
           </div>
         ))}
+        </div>
 
       </div>
     </section>
