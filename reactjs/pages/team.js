@@ -55,60 +55,18 @@ const team = [
 const volunteers = [
   {
     name: 'Darya Shapovalova',
-    position: '? @ DrupalSquad',
-  },
-  {
-    name: 'Alexander Sukhodolsky',
-    position: '?',
-  },
-  {
-    name: 'Viktoria Porfenovich',
-    position: '? @ DrupalSquad',
-  },
-  {
-    name: 'Andrei Tabolin',
-    position: '?',
-  },
-  {
-    name: 'Yuliya Yermalayeva',
-    position: '? @ DrupalSquad',
-  },
-  {
-    name: 'Gena Koltun',
-    position: '? @ IB',
-  },
-  {
-    name: 'Alex Domasevich',
-    position: '?',
-  },
-  {
-    name: 'Petr Lozovitskiy',
-    position: '?',
-  },
-  {
-    name: 'Igor Cheledinov',
-    position: '?',
-  },
-  {
-    name: 'Olga Podlubnaja',
-    position: '?',
-  },
-  {
-    name: 'Andrej Podlubnyj',
-    position: '?',
-  },
-  {
-    name: 'Andrei Tsiukhai',
-    position: '?',
+    nickname: 'darya.shapovalova',
+    position: 'Automation Test Engineer @ DrupalSquad',
   },
   {
     name: 'Nikolai Tatianenko',
-    nickname: 'nikolas.tatianenko',
+    nickname: 'nikolai.tatianenko',
     position: 'Lead Software Engineer @ Epam Systems',
   },
   {
-    name: 'Rostislav Sergeenkov',
-    position: '?',
+    name: 'Andrej Podlubnyj',
+    nickname: 'andrej.podlubnyj',
+    position: 'IT Consultant',
   },
 ];
 
@@ -134,7 +92,7 @@ const OrganizersPage = () => (
       </div>
     </section>
 
-{/*    <section id="organizers" className="section align-center mobile-padding">
+    <section id="organizers" className="section align-center mobile-padding">
       <div className="container">
         <span className="icon section-icon icon-faces-users-03"/>
         <h3>Meet Volunteers</h3>
@@ -152,7 +110,7 @@ const OrganizersPage = () => (
         ))}
 
       </div>
-    </section>*/}
+    </section>
 
     <section id="organizers" className="section align-center" style={{ paddingTop: 0 }}>
       <div className="container">
