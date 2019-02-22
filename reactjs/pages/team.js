@@ -68,13 +68,18 @@ const volunteers = [
     nickname: 'andrej.podlubnyj',
     position: 'IT Consultant',
   },
+  {
+    name: 'Alex Domasevich',
+    nickname: 'alex.domasevich',
+    position: 'Team Lead @ Drupal Teams',
+  },
 ];
 
 const OrganizersPage = () => (
   <>
     <section id="organizers" className="section align-center mobile-padding">
       <div className="container">
-        <span className="icon section-icon icon-faces-users-03"/>
+        <span className="icon section-icon icon-faces-users-03" />
         <h3>Meet Organizers</h3>
 {/*        <p className="text-alt">
           People who <span className="highlight">make the event happen</span>.
@@ -84,7 +89,7 @@ const OrganizersPage = () => (
         <br/>
 
         {team.map(organizer => (
-          <div className="col-sm-4" key={organizer.name}>
+          <div className="col-12 col-sm-4" key={organizer.name}>
             <Speaker {...organizer} />
           </div>
         ))}
@@ -94,7 +99,7 @@ const OrganizersPage = () => (
 
     <section id="organizers" className="section align-center mobile-padding">
       <div className="container">
-        <span className="icon section-icon icon-faces-users-03"/>
+        <span className="icon section-icon icon-faces-users-03" />
         <h3>Meet Volunteers</h3>
         <p className="text-alt">
           People who <span className="highlight">make the event happen</span>.
@@ -104,7 +109,7 @@ const OrganizersPage = () => (
         <br/>
 
         {volunteers.map(volunteer => (
-          <div className="col-sm-4" key={volunteer.name}>
+          <div className="col-12 col-sm-3" key={volunteer.name}>
             <Speaker {...volunteer} />
           </div>
         ))}

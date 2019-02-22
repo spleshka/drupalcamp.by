@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 const Speaker = ({ nickname, name, position, countries, links }) => (
   <div className="speaker">
-    <div className="photo-wrapper rounded" style={{ width: '200px', height: '200px' }}>
-      <img src={`/assets/img/speakers/${nickname}.jpg`} alt={name} className="img-responsive" />
+    <div className="photo-wrapper rounded">
+      <img src={`/assets/img/speakers/${nickname}.jpg`} alt={name} className="img-responsive" style={{ width: '100%', maxWidth: '200px' }} />
     </div>
     <h3 className="name">{name}</h3>
     <p className="text-alt">
