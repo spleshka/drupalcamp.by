@@ -4,7 +4,7 @@ import Speaker from '../components/01_atoms/Speaker';
 const team = [
   {
     name: 'Evgeniy Maslovskiy',
-    nickname: 'Spleshka',
+    nickname: 'spleshka',
     position: 'Chief Technology Officer @ SystemSeed',
     countries: ['Belarus'],
     links: [
