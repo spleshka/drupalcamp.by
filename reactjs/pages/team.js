@@ -59,9 +59,19 @@ const volunteers = [
     position: 'Automation Test Engineer @ DrupalSquad',
   },
   {
-    name: 'Nikolai Tatianenko',
-    nickname: 'nikolai.tatianenko',
-    position: 'Lead Software Engineer @ EPAM Systems',
+    name: 'Igor Cheledinov',
+    nickname: 'igor.cheledinov',
+    position: 'Solutions Architect @ DrupalSquad',
+  },
+  {
+    name: 'Andrei Tabolin',
+    nickname: 'andrei.tabolin',
+    position: 'Senior Software Engineer @ EPAM Systems',
+  },
+  {
+    name: 'Yuliya Yermalayeva',
+    nickname: 'yuliya.yermalaeva',
+    position: 'Lead QA Engineer @ DrupalSquad',
   },
   {
     name: 'Andrej Podlubnyj',
@@ -69,25 +79,21 @@ const volunteers = [
     position: 'IT Consultant',
   },
   {
-    name: 'Alex Domasevich',
-    nickname: 'alex.domasevich',
-    position: 'Team Lead @ Drupal Teams',
-  },
-  {
-    name: 'Igor Cheledinov',
-    nickname: 'igor.cheledinov',
-    position: 'Solutions Architect @ DrupalSquad',
-  },
-  {
     name: 'Alexander Sukhodolsky',
     nickname: 'alexander.sukhodolsky',
     position: 'Software Engineer @ DrupalSquad',
   },
   {
-    name: 'Andrei Tabolin',
-    nickname: 'andrei.tabolin',
-    position: 'Senior Software Engineer @ EPAM Systems',
+    name: 'Alex Domasevich',
+    nickname: 'alex.domasevich',
+    position: 'Team Lead @ Drupal Teams',
   },
+  {
+    name: 'Nikolai Tatianenko',
+    nickname: 'nikolai.tatianenko',
+    position: 'Lead Software Engineer @ EPAM Systems',
+  },
+
 ];
 
 const OrganizersPage = () => (
