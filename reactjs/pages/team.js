@@ -77,6 +77,21 @@ const volunteers = [
     name: 'Andrej Podlubnyj',
     nickname: 'andrej.podlubnyj',
     position: 'IT Consultant',
+  },{
+    name: 'Nikolai Tatianenko',
+    nickname: 'nikolai.tatianenko',
+    position: 'Lead Software Engineer @ EPAM Systems',
+  },
+
+  {
+    name: 'Alex Domasevich',
+    nickname: 'alex.domasevich',
+    position: 'Team Lead @ Drupal Teams',
+  },
+  {
+    name: 'Viktoria Porfenovich',
+    nickname: 'viktoria.porfenovich',
+    position: 'Software Engineer @ DrupalSquad',
   },
   {
     name: 'Alexander Sukhodolsky',
@@ -84,16 +99,15 @@ const volunteers = [
     position: 'Software Engineer @ DrupalSquad',
   },
   {
-    name: 'Alex Domasevich',
-    nickname: 'alex.domasevich',
-    position: 'Team Lead @ Drupal Teams',
+    name: 'Peter Lozovitsky',
+    nickname: 'petr.lozovitskiy',
+    position: 'Freelancer @ UpWork',
   },
   {
-    name: 'Nikolai Tatianenko',
-    nickname: 'nikolai.tatianenko',
-    position: 'Lead Software Engineer @ EPAM Systems',
+    name: 'Andrei Tyuhai',
+    nickname: 'andrei.tyuhai',
+    position: 'Software Engineer @ KrengelTech',
   },
-
 ];
 
 const OrganizersPage = () => (
