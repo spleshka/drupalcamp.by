@@ -114,7 +114,7 @@ const OrganizersPage = () => (
   <>
     <section id="organizers" className="section align-center mobile-padding">
       <div className="container">
-        <span className="icon section-icon icon-faces-users-03" />
+        <span className="icon section-icon icon-badges-votes-15" />
         <h3>Meet Organizers</h3>
 {/*        <p className="text-alt">
           People who <span className="highlight">make the event happen</span>.
@@ -134,9 +134,9 @@ const OrganizersPage = () => (
       </div>
     </section>
 
-    <section id="organizers" className="section align-center">
+    <section id="organizers" className="section align-center" style={{ paddingTop: 0 }} >
       <div className="container">
-        <span className="icon section-icon icon-faces-users-03" />
+        <span className="icon section-icon icon-badges-votes-14" />
         <h3>Meet Volunteers</h3>
         <p className="text-alt">
           People who <span className="highlight">make the event happen</span>.
