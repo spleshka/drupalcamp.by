@@ -6,7 +6,7 @@ const FrontpageIntro = () => (
     <div className="fullwidth-path">
       <div
         className="fullwidth-section-bg bg-right"
-        style={{ backgroundImage: "url(/assets/img/venue.jpg)" }}
+        style={{ backgroundImage: "url(/assets/img/for-people.jpg)" }}
       />
       <div className="col-sm-6 fullwidth-column">
         <article>
@@ -29,7 +29,7 @@ const FrontpageIntro = () => (
     <div className="fullwidth-path">
       <div
         className="fullwidth-section-bg bg-left"
-        style={{ backgroundImage: "url(/assets/img/people.jpg)" }}
+        style={{ backgroundImage: "url(/assets/img/community.jpg)" }}
       />
       <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
         <article>
@@ -56,7 +56,7 @@ const FrontpageIntro = () => (
     <div className="fullwidth-path">
       <div
         className="fullwidth-section-bg bg-right"
-        style={{ backgroundImage: "url(/assets/img/party.jpg)" }}
+        style={{ backgroundImage: "url(/assets/img/nerd-party.jpg)" }}
       />
       <div className="col-sm-6 fullwidth-column">
         <article>
