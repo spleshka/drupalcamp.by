@@ -99,6 +99,11 @@ const volunteers = [
     position: 'Software Engineer @ DrupalSquad',
   },
   {
+    name: 'Gena Koltun',
+    nickname: 'gena.koltun',
+    position: 'CEO @ ib.by',
+  },
+  {
     name: 'Peter Lozovitsky',
     nickname: 'petr.lozovitskiy',
     position: 'Freelancer @ UpWork',
