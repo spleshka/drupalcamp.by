@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import App, { Container } from 'next/app';
+import withFBQ from 'next-fbq';
 import { Provider } from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 import withReduxSaga from 'next-redux-saga';
@@ -63,4 +64,4 @@ class Application extends App {
   }
 }
 
-export default withRedux(configureStore)(withReduxSaga(withGA('UA-128259970-1', Router)(Application)));
+export default withRedux(configureStore)(withReduxSaga(withGA('UA-128259970-1', Router)(withFBQ("1354582024695940", Router)(Application))));

@@ -3777,6 +3777,12 @@ neo-async@^2.5.0:
   version "2.5.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.5.1.tgz#acb909e327b1e87ec9ef15f41b8a269512ad41ee"
 
+next-fbq@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/next-fbq/-/next-fbq-2.0.0.tgz#6b3c752b293369a70e35028d8d082bcebcf91e60"
+  dependencies:
+    react-facebook-pixel "^0.1.1"
+
 next-ga@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/next-ga/-/next-ga-2.3.1.tgz#a3c26fad0aeb73e1db978c37f6eb93586a0836bd"
@@ -4603,6 +4609,10 @@ react-dom@^16.4.1:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
+
+react-facebook-pixel@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-facebook-pixel/-/react-facebook-pixel-0.1.2.tgz#a1519f215611eb136802d78542aface547972827"
 
 react-ga@^2.5.3:
   version "2.5.3"
