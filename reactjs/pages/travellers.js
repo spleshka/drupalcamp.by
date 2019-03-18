@@ -13,13 +13,13 @@ const Travellers = () => (
     </section>
 
 
-    <section className="fullwidth-section" style={{margin: 0}}>
+    <section className="fullwidth-section" style={{ marginBottom: 0}}>
 
       {/* VISA FREE */}
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-right"
-          style={{backgroundImage: "url(https://d1k39sp5rjli2z.cloudfront.net/viza-free.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/viza-free.jpg)"}}
         />
         <div className="col-sm-6 fullwidth-column">
           <article>
@@ -39,7 +39,7 @@ const Travellers = () => (
 
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="http://mfa.gov.by/en/visa/visafreetravel/e0ced19bb1f9bf2c.html"
                 target="_blank"
                 className="btn btn-sm"
@@ -47,7 +47,7 @@ const Travellers = () => (
                 Official Information
               </a>
               <a
-                style={{margin: 0}}
+                
                 href="https://www.youtube.com/watch?v=KnDWt6srtNM"
                 target="_blank"
                 className="btn btn-sm"
@@ -64,7 +64,7 @@ const Travellers = () => (
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-left"
-          style={{backgroundImage: "url(https://4esnok.by/wp-content/uploads/2017/04/p1a773pj8r1q8o75381b172r6fj4.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/transfer.jpg)"}}
         />
         <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
           <article>
@@ -80,13 +80,13 @@ const Travellers = () => (
               however having drivers wearing suits, good & clean cars, free wifi & chargers. You can also pay via your credit card. The cost of getting to/from the city is fixed there and is 44 BYN (~$20).
             </p>
 
-            <p>The cheaper alternative to Pyatnica is <strong>Yandex.Taxi</strong>. You can download the app from <a href="https://itunes.apple.com/us/app/yandex-taxi/id472650686?mt=8" target="_blank">App Store</a> or <a href="https://play.google.com/store/apps/details?id=ru.yandex.taxi&hl=en" target="_blank">Google Play</a>. The cost of trip is not fixed and is round 30-40 BYN ($15-$20).</p>
+            <p>The cheaper alternative to Pyatnica is <strong>Yandex.Taxi</strong> (<a href="https://play.google.com/store/apps/details?id=ru.yandex.taxi&hl=en" target="_blank">Android</a>, <a href="https://itunes.apple.com/us/app/yandex-taxi/id472650686?mt=8" target="_blank">iOS</a>). The cost of the trip is not fixed and is around 30 - 40 BYN ($15 - $20).</p>
 
-            <p>General advise is try to avoid getting into a taxi not using the apps, because there is a little chance that you'll be charged unreasonably high price.</p>
+            <p>General advise is try to avoid ordering a taxi not using the apps, because there is a little chance that you'll be charged unreasonably high price.</p>
 
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="https://www.youtube.com/watch?v=Z0azWFh6hIE"
                 target="_blank"
                 className="btn btn-sm"
@@ -94,7 +94,7 @@ const Travellers = () => (
                 Taxi Video
               </a>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="https://www.youtube.com/watch?v=64WqlG1UxaM"
                 target="_blank"
                 className="btn btn-sm"
@@ -111,7 +111,7 @@ const Travellers = () => (
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-right"
-          style={{backgroundImage: "url(http://www.friendfactor.org/wp-content/uploads/2018/10/Maps.me-for-Android-and-iPhone.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/maps.jpg)"}}
         />
         <div className="col-sm-6 fullwidth-column">
           <article>
@@ -123,7 +123,7 @@ const Travellers = () => (
 
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="http://belarusfeed.com/travel-apps-belarus/"
                 target="_blank"
                 className="btn btn-sm"
@@ -140,7 +140,7 @@ const Travellers = () => (
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-left"
-          style={{backgroundImage: "url(https://belarusfeed.com/wp-content/uploads/2017/03/aeroport_obzor_20170210_bur_tutby_phsl_-0079.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/sim-card.jpg)"}}
         />
         <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
           <article>
@@ -155,7 +155,7 @@ const Travellers = () => (
 
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="http://belarusfeed.com/buy-sim-card-belarus/"
                 target="_blank"
                 className="btn btn-sm"
@@ -172,7 +172,7 @@ const Travellers = () => (
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-right"
-          style={{backgroundImage: "url(http://banknoteinfo.net/wp-content/uploads/2016/07/BYN-01072016.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/money.jpg)"}}
         />
         <div className="col-sm-6 fullwidth-column">
           <article>
@@ -188,7 +188,7 @@ const Travellers = () => (
 
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="https://www.belarus.by/en/travel/money"
                 target="_blank"
                 className="btn btn-sm"
@@ -205,7 +205,7 @@ const Travellers = () => (
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-left"
-          style={{backgroundImage: "url(https://static.relax.by/images/common/wysiwyg/2018/05/bc70e8cc722d6725eed8ef53c08219c3.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/food.jpg)"}}
         />
         <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
           <article>
@@ -215,10 +215,12 @@ const Travellers = () => (
 
             <p>Generally many places are located near the city center (as well as the venue for Drupal Camp), so it's recommended to stay somewhere in the center or at least very close to the metro line.</p>
 
+            <p>Famous places with Belarusian cuisine are <a href="https://www.tripadvisor.com/ShowUserReviews-g294448-d3419085-r650949053-Kamyanitsa-Minsk.html" target="_blank">Kamianica</a>, <a href="https://www.tripadvisor.com/Restaurant_Review-g294448-d2470206-Reviews-Kukhmistr-Minsk.html" target="_blank">Kukhmistr</a>, <a href="https://www.tripadvisor.com/Restaurant_Review-g294448-d1440878-Reviews-Rakovsky_Brovar-Minsk.html" target="_blank">Rakovsky Brovar</a> and  <a href="https://www.tripadvisor.com/Restaurant_Review-g294448-d9728302-Reviews-Vasilki-Minsk.html" target="_blank">Vasilki</a>.</p>
+
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
-                href="https://34travel.me/gotobelarus/en/post/minsk-english-guide"
+                
+                href="https://34travel.me/gotobelarus/en/post/minsk-english-guide#caferest"
                 target="_blank"
                 className="btn btn-sm"
               >
@@ -234,7 +236,7 @@ const Travellers = () => (
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-right"
-          style={{backgroundImage: "url(https://rdnv.me/images/2015/12/streetart_oktyabrskaya_16-3.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/street.jpg)"}}
         />
         <div className="col-sm-6 fullwidth-column">
           <article>
@@ -242,10 +244,7 @@ const Travellers = () => (
 
             <p><a href="https://yandex.com/maps/-/CCezv4Pu" target="_blank">Kastryčnickaja Street</a> certainly deserves to be mentioned. If you ask how the process of gentrification and revitalization is going on in Minsk, you can always point to the Kastryčnickaja’s example – the former industrial street has in recent years become pretty much the most important exhibition-and-hang-out place in the city.</p>
 
-            <p>This is where Huligan Bar, Depo crêpe house, snack-bars Laŭka and Ultrabar, and café Enzo work and where progressive advertising agencies, publishing houses, and IT companies have opened their offices.
-              This is also the location of the yoga studio and fitness center Moby Dick.
-              The former plant’s walls are decorated with the murals left over after the Vulica Brazil street-art festival.
-              The most important things happen here at night in the warm time of the year – on the street, of course.</p>
+            <p>This is where Huligan Bar, Depo crêpe house, Monkey Food veggie place, Laŭka snack-bar, and Enzo café work and where progressive advertising agencies, publishing houses, and IT companies have opened their offices. The former plant’s walls are decorated with the murals left over after the Vulica Brazil street-art festival. The most important things happen here at night in the warm time of the year – on the street, of course.</p>
 
             <p>
               Fridays and Saturdays are the time for fun and chaotic parties when several thousands of people might be hanging out on a little patch of the ground.
@@ -253,7 +252,7 @@ const Travellers = () => (
 
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="https://34mag.net/media/34magstuff/kastrychnickaja_map_34mag.pdf"
                 target="_blank"
                 className="btn btn-sm"
@@ -270,7 +269,7 @@ const Travellers = () => (
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-left"
-          style={{backgroundImage: "url(https://cdn.ueno.co/build/59e2d56cae85c1b18f2f7baa1d1af68e.png)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/slack.jpg)"}}
         />
         <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
           <article>
@@ -282,7 +281,7 @@ const Travellers = () => (
 
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
-                style={{margin: '0 20px 0 0'}}
+                
                 href="https://join.slack.com/t/drupal-belarus/shared_invite/enQtNTc1MTkwMTUxNzAyLWZlMjVlZmY0YmJlOGM3YzkxN2M0ZjNiZGUwNjhhMDBmY2Q0MDZjZTg4ZGUyNDFiZGM2MmVlY2YwZmJmYzE3Y2U"
                 target="_blank"
                 className="btn btn-sm"
