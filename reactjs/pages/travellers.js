@@ -135,13 +135,51 @@ const Travellers = () => (
         </div>
       </div>
 
-      {/* SIM CARD */}
+      {/* WI-FI */}
       <div className="fullwidth-path">
         <div
           className="fullwidth-section-bg bg-left"
-          style={{backgroundImage: "url(/static/assets/img/travellers/sim-card.jpg)"}}
+          style={{backgroundImage: "url(/static/assets/img/travellers/wifi.jpg)"}}
         />
         <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
+          <article>
+            <h4 style={{marginBottom: '20px'}}>Wi-Fi spots</h4>
+
+            <p>Most of the venues in Minsk have their own free public Wi-Fi
+              networks. However, there are also a couple of public Wi-Fi
+              networks which provide coverage in different areas of Minsk.</p>
+
+            <p>Travellers at the Minsk International Airport can use Wi-Fi for
+              free for up to 3 hours - check out the <a href="http://airport.by/en/infrastructure/wi-fi"
+              target="_blank">airport website</a> for
+              details.</p>
+
+            <p>The largest public Wi-Fi network is provided by Belarusian state
+              telecom company “Beltelecom” with hotspots located across tourist
+              locations all over the city of Minsk. You should look for the
+              following networks - “BELTELECOM” or “byflyWIFI” in order to
+              connect to Beltelecom hotspots. On the first connection attempt
+              you will be redirected to login page (available in English) with
+              instructions on how to register on the network and payment
+              options.</p>
+
+            <p>There is also a free Wi-Fi network named “Free Wi-Fi Minsk”
+              available in multiple public areas of Minsk - connection process
+              is straightforward, but you must have a cell phone with ability to
+              receive text messages.
+            </p>
+
+          </article>
+        </div>
+      </div>
+
+      {/* SIM CARD */}
+      <div className="fullwidth-path">
+        <div
+          className="fullwidth-section-bg bg-right"
+          style={{backgroundImage: "url(/static/assets/img/travellers/sim-card.jpg)"}}
+        />
+        <div className="col-sm-6 align-left fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>Local sim card</h4>
 
@@ -170,10 +208,10 @@ const Travellers = () => (
       {/* CURRENCY */}
       <div className="fullwidth-path">
         <div
-          className="fullwidth-section-bg bg-right"
+          className="fullwidth-section-bg bg-left"
           style={{backgroundImage: "url(/static/assets/img/travellers/money.jpg)"}}
         />
-        <div className="col-sm-6 fullwidth-column">
+        <div className="col-sm-6 col-sm-offset-6 fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>Money / Currency Exchange</h4>
 
@@ -203,10 +241,10 @@ const Travellers = () => (
       {/* LOCAL FOOD & DRINKS */}
       <div className="fullwidth-path">
         <div
-          className="fullwidth-section-bg bg-left"
+          className="fullwidth-section-bg bg-right"
           style={{backgroundImage: "url(/static/assets/img/travellers/food.jpg)"}}
         />
-        <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
+        <div className="col-sm-6 align-left fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>Local Food & Drinks</h4>
 
@@ -234,10 +272,10 @@ const Travellers = () => (
       {/* INSIGHTS FROM LOCALS */}
       <div className="fullwidth-path">
         <div
-          className="fullwidth-section-bg bg-right"
+          className="fullwidth-section-bg bg-left"
           style={{backgroundImage: "url(/static/assets/img/travellers/street.jpg)"}}
         />
-        <div className="col-sm-6 fullwidth-column">
+        <div className="col-sm-6 col-sm-offset-6 fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>Insights from Locals</h4>
 
@@ -267,10 +305,10 @@ const Travellers = () => (
       {/* SUPPORT CHANNEL */}
       <div className="fullwidth-path">
         <div
-          className="fullwidth-section-bg bg-left"
+          className="fullwidth-section-bg bg-right"
           style={{backgroundImage: "url(/static/assets/img/travellers/slack.jpg)"}}
         />
-        <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
+        <div className="col-sm-6 align-left fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>Support</h4>
 
