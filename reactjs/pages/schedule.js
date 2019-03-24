@@ -7,7 +7,7 @@ const sessions = [
     icon: 'icon-alerts-07',
   },
   {
-    time: '09:40 - 10:00 / Opening',
+    time: '09:40 - 10:00 / Official Opening',
     type: 'break',
     icon: 'icon-realestate-living-15',
   },
@@ -225,7 +225,7 @@ const sessions = [
     ],
   },
   {
-    time: '18:00 - 18:15 / Closing',
+    time: '18:00 - 18:15 / Official Closing',
     type: 'break',
     icon: 'icon-party-09',
   },
