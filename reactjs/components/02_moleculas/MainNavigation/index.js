@@ -17,7 +17,6 @@ class MainNavigation extends React.Component {
 
     this.mobileVisibilityToggle = this.mobileVisibilityToggle.bind(this);
     this.onWindowResize = this.onWindowResize.bind(this);
-    this.onContactLinkClick = this.onContactLinkClick.bind(this);
     this.onMenuItemClick = this.onMenuItemClick.bind(this);
   }
 
@@ -28,17 +27,6 @@ class MainNavigation extends React.Component {
 
   componentWillUnmount() {
     window.removeEventListener('resize', this.onWindowResize);
-  }
-
-  onContactLinkClick() {
-    const { router } = this.props;
-    if (router.route === '/') {
-      scrollToElement('contacts');
-      this.setState({ isMobileMenuOpened: false });
-    }
-    else {
-      Router.pushRoute('/#contacts');
-    }
   }
 
   onMenuItemClick() {
@@ -119,6 +107,14 @@ class MainNavigation extends React.Component {
                   </Link>
                 </li>
 
+                {/*<li className="navigation-item">
+                  <Link to="/schedule" prefetch>
+                    <a className={`navigation-link ${router.route === '/schedule' ? 'active' : ''}`}>
+                      <span onClick={this.onMenuItemClick}>Schedule</span>
+                    </a>
+                  </Link>
+                </li>*/}
+
                 <li className="navigation-item dropdown">
                   <a className={`navigation-link dropdown-toggle ${router.route === '/sponsors' || router.route === '/become-sponsor' ? 'active' : ''}`}>Sponsors</a>
                   <ul className="dropdown-menu">
@@ -147,20 +143,19 @@ class MainNavigation extends React.Component {
                 </li>
 
                 <li className="navigation-item">
-                  <Link to="/team" prefetch>
-                    <a className={`navigation-link ${router.route === '/team' ? 'active' : ''}`}>
-                      <span onClick={this.onMenuItemClick}>Team</span>
+                  <Link to="/travellers" prefetch>
+                    <a className={`navigation-link ${router.route === '/travellers' ? 'active' : ''}`}>
+                      <span onClick={this.onMenuItemClick}>For Travellers</span>
                     </a>
                   </Link>
                 </li>
 
                 <li className="navigation-item">
-                  <a
-                    className="navigation-link"
-                    onClick={this.onContactLinkClick}
-                  >
-                    Contacts
-                  </a>
+                  <Link to="/team" prefetch>
+                    <a className={`navigation-link ${router.route === '/team' ? 'active' : ''}`}>
+                      <span onClick={this.onMenuItemClick}>Team</span>
+                    </a>
+                  </Link>
                 </li>
               </ul>
 
