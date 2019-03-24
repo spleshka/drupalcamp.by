@@ -12,7 +12,6 @@ const Travellers = () => (
       </div>
     </section>
 
-
     <section className="fullwidth-section" style={{ marginBottom: 0}}>
 
       {/* VISA FREE */}
