@@ -2,24 +2,14 @@ import React from 'react';
 
 const sessions = [
   {
-    time: '08:40 - 09:40',
-    type: 'registration',
-    data: [
-      {
-        title: 'Registration',
-      },
-    ],
+    time: '08:40 - 09:40 / Registration',
+    type: 'break',
+    icon: 'icon-alerts-07',
   },
   {
-    time: '09:40 - 10:00',
-    type: 'social',
-    data: [
-      {
-        title: 'Official Opening',
-        speakers: ['Organizers'],
-        language: 'en',
-      },
-    ],
+    time: '09:40 - 10:00 / Opening',
+    type: 'break',
+    icon: 'icon-realestate-living-15',
   },
   {
     time: '10:00 - 10:40',
@@ -235,15 +225,9 @@ const sessions = [
     ],
   },
   {
-    time: '18:00 - 18:15',
-    type: 'social',
-    data: [
-      {
-        title: 'Official Closing',
-        speakers: ['Organizers'],
-        language: 'en',
-      },
-    ],
+    time: '18:00 - 18:15 / Closing',
+    type: 'break',
+    icon: 'icon-party-09',
   },
 ];
 
