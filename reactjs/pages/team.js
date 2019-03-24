@@ -5,7 +5,7 @@ const team = [
   {
     name: 'Evgeniy Maslovskiy',
     nickname: 'spleshka',
-    position: 'Chief Technology Officer @ SystemSeed',
+    position: 'CTO @ SystemSeed',
     countries: ['Belarus'],
     links: [
       {
@@ -21,7 +21,7 @@ const team = [
   {
     name: 'Yauhen Zenko',
     nickname: 'zeuty',
-    position: 'Technical Lead @ Colours',
+    position: 'Technical Lead @ We Are You',
     countries: ['Netherlands'],
     links: [
       {
@@ -50,6 +50,22 @@ const team = [
       },
     ]
   },
+  {
+    name: 'Henadzi Koltun',
+    nickname: 'koltun',
+    position: 'CEO @ IBBY',
+    countries: ['Belarus'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'https://twitter.com/gena_by',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/koltun/',
+      },
+    ]
+  },
 ];
 
 const volunteers = [
@@ -61,7 +77,7 @@ const volunteers = [
   {
     name: 'Igor Cheledinov',
     nickname: 'igor.cheledinov',
-    position: 'Solutions Architect @ DrupalSquad',
+    position: 'Solutions Architect @ Freelance',
   },
   {
     name: 'Andrei Tabolin',
@@ -99,20 +115,20 @@ const volunteers = [
     position: 'Software Engineer @ DrupalSquad',
   },
   {
-    name: 'Gena Koltun',
-    nickname: 'gena.koltun',
-    position: 'CEO @ ib.by',
+    name: 'Andrei Tyuhai',
+    nickname: 'andrei.tyuhai',
+    position: 'Software Engineer @ KrengelTech',
+  },
+  {
+    name: 'Olga Podlubnaja',
+    nickname: 'olga.podlubnaja',
+    position: 'Developer @ HirschTech',
   },
   {
     name: 'Peter Lozovitsky',
     nickname: 'petr.lozovitskiy',
     position: 'Freelancer @ UpWork',
-  },
-  {
-    name: 'Andrei Tyuhai',
-    nickname: 'andrei.tyuhai',
-    position: 'Software Engineer @ KrengelTech',
-  },
+  }
 ];
 
 const OrganizersPage = () => (
@@ -121,16 +137,16 @@ const OrganizersPage = () => (
       <div className="container">
         <span className="icon section-icon icon-badges-votes-15" />
         <h3>Meet Organizers</h3>
-{/*        <p className="text-alt">
-          People who <span className="highlight">make the event happen</span>.
-        </p>*/}
+        <p className="text-alt">
+          Big Dreamers.
+        </p>
 
         <br/>
         <br/>
 
         <div className="row">
         {team.map(organizer => (
-          <div className="col-12 col-sm-4" key={organizer.name}>
+          <div className="col-12 col-sm-3" key={organizer.name}>
             <Speaker {...organizer} />
           </div>
         ))}
@@ -171,7 +187,7 @@ const OrganizersPage = () => (
         <br/>
         <br/>
 
-        <div className="col-sm-4">
+        <div className="col-sm-3">
           <div className="speaker">
             <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
               <img src="/assets/img/organizers/drupalsquad.png" alt="DrupalSquad / Anakreon" className="img-responsive" style={{ margin: 'auto' }} />
@@ -186,7 +202,7 @@ const OrganizersPage = () => (
           </div>
         </div>
 
-        <div className="col-sm-4">
+        <div className="col-sm-3">
           <div className="speaker">
             <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
               <img src="/assets/img/organizers/colours.jpg" alt="Colours" className="img-responsive" style={{ margin: 'auto' }} />
@@ -201,7 +217,7 @@ const OrganizersPage = () => (
           </div>
         </div>
 
-        <div className="col-sm-4">
+        <div className="col-sm-3">
           <div className="speaker">
             <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
               <img src="/assets/img/organizers/systemseed.png" alt="SystemSeed" className="img-responsive" style={{ margin: 'auto' }} />
@@ -212,6 +228,21 @@ const OrganizersPage = () => (
               <li><a href="https://twitter.com/systemseed" target="_blank"><span className="fa fa-twitter"/></a></li>
               <li><a href="https://www.linkedin.com/company/systemseed" target="_blank"><span className="fa fa-linkedin"/></a></li>
               <li><a href="https://www.drupal.org/systemseed" target="_blank"><span className="fa fa-drupal"/></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="col-sm-3">
+          <div className="speaker">
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
+              <img src="/assets/img/organizers/ib.by.png" alt="IBBY" className="img-responsive" style={{ margin: 'auto', maxHeight: '100%' }} />
+            </div>
+            {/*<h3 className="name">SystemSeed</h3>*/}
+            <ul className="speaker-socials">
+              <li><a href="https://ib.by" target="_blank"><span className="fa fa-external-link"/></a></li>
+              {/*<li><a href="https://twitter.com/systemseed" target="_blank"><span className="fa fa-twitter"/></a></li>
+              <li><a href="https://www.linkedin.com/company/systemseed" target="_blank"><span className="fa fa-linkedin"/></a></li>
+              <li><a href="https://www.drupal.org/systemseed" target="_blank"><span className="fa fa-drupal"/></a></li>*/}
             </ul>
           </div>
         </div>
