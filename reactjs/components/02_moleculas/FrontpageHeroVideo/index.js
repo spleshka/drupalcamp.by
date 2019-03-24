@@ -62,7 +62,7 @@ class FrontpageHeroVideo extends React.Component {
 
             <span className="event-item">
               <span className="fa fa-map-marker base-clr-txt" />
-              <a href="https://goo.gl/maps/T2KQCBx8oxE2" target="_blank">Hotel Renaissance, Minsk, Belarus</a>
+              <a href="https://yandex.com/maps/-/CBBd62HOKB" target="_blank">Hotel Renaissance, Minsk, Belarus</a>
             </span>
 
           </h5>
