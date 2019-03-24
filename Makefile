@@ -46,7 +46,7 @@ install:
 yarn:
 	@echo "${YELLOW}Running yarn command...${COLOR_END}"
 	$(eval ARGS := $(filter-out $@,$(MAKECMDGOALS)))
-	docker-compose run node yarn $(ARGS)
+	docker-compose run --rm node yarn $(ARGS)
 
 lint:
 	@echo "${YELLOW}Checking coding styles...${COLOR_END}"
