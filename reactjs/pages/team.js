@@ -235,7 +235,7 @@ const OrganizersPage = () => (
         <div className="col-sm-3">
           <div className="speaker">
             <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
-              <img src="/assets/img/organizers/ib.by.png" alt="IBBY" className="img-responsive" style={{ margin: 'auto', maxHeight: '100%' }} />
+              <img src="/assets/img/organizers/ibby.png" alt="IBBY" className="img-responsive" style={{ margin: 'auto', maxHeight: '100%' }} />
             </div>
             {/*<h3 className="name">SystemSeed</h3>*/}
             <ul className="speaker-socials">
