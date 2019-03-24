@@ -4,7 +4,7 @@ const Travellers = () => (
   <>
     <section className="section align-center mobile-padding">
       <div className="container">
-        <span className="icon section-icon icon-badges-votes-13"/>
+        <span className="icon section-icon icon-travel-transportation-02"/>
         <h3 className="heading-alt">Information for Travellers</h3>
         <p className="text-alt">
           Tips & tricks for our guests.
