@@ -26,10 +26,6 @@ const FrontpageLocation = () => (
               <a href="mailto:info@drupalcamp.by">info@drupalcamp.by</a>
             </li>
             <li>
-              <i className="fa fa-twitter" />
-              <a href="https://twitter.com/@DrupalCampBy" target="_blank">DrupalCampBy</a>
-            </li>
-            <li>
               <i className="fa fa-clock-o" />
               10am - 7pm, 18-19 May 2019
             </li>
