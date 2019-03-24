@@ -12,9 +12,8 @@ const data = [
     label: 'days',
   },
   {
-    count: 25,
-    suffix: '+',
-    label: 'speakers',
+    count: 26,
+    label: 'sessions',
   },
   {
     count: 300,
