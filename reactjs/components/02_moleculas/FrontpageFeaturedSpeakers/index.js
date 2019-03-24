@@ -19,50 +19,6 @@ const speakers = [
       }
     ],
   },
-/*  {
-    name: 'Daniel Wehner',
-    nickname: 'dawehner',
-    position: 'Senior Engineer @ Times Higher Education',
-    countries: ['Germany'],
-    links: [
-      {
-        type: 'twitter',
-        url: 'https://twitter.com/da_wehner',
-      },
-      {
-        type: 'linkedin',
-        url: 'https://www.linkedin.com/in/daniel-wehner-70994385/',
-      }
-    ],
-  },*/
-  {
-    name: 'Lauren Kelly',
-    nickname: 'lauren-kelly',
-    position: 'Engagement Manager @ Pantheon',
-    countries: ['United States of America'],
-    links: [
-      {
-        type: 'linkedin',
-        url: 'https://www.linkedin.com/in/unreality',
-      }
-    ],
-  },
-  {
-    name: 'Bojan Živanović',
-    nickname: 'bojanz',
-    position: 'Developer @ Commerce Guys',
-    countries: ['Serbia'],
-    links: [
-      {
-        type: 'twitter',
-        url: 'https://twitter.com/bojan_zivanovic',
-      },
-      {
-        type: 'linkedin',
-        url: 'https://www.linkedin.com/in/bojanzivanovic/',
-      }
-    ],
-  },
   {
     name: 'Steve Persch',
     nickname: 'stevector',
@@ -76,6 +32,38 @@ const speakers = [
       {
         type: 'linkedin',
         url: 'https://www.linkedin.com/in/stevepersch/',
+      }
+    ],
+  },
+  {
+    name: 'Angie Byron',
+    nickname: 'webchick',
+    position: 'Director, Community Development @ Acquia',
+    countries: ['Canada'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'http://twitter.com/webchick',
+      },
+      {
+        type: 'linkedin',
+        url: 'http://www.linkedin.com/in/webchick',
+      }
+    ],
+  },
+  {
+    name: 'Bojan Živanović',
+    nickname: 'bojanz',
+    position: 'Lead Developer @ Commerce Guys',
+    countries: ['Serbia'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'https://twitter.com/bojan_zivanovic',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/bojanzivanovic/',
       }
     ],
   },
@@ -96,18 +84,46 @@ const speakers = [
     ],
   },
   {
-    name: 'Pedro Cambra',
-    nickname: 'pcambra',
-    position: 'Founder @ Cambrico',
-    countries: ['Spain'],
+    name: 'Tatár Balázs János',
+    nickname: 'tatarbj',
+    position: 'CTO @ Petend',
+    countries: ['Hungary'],
     links: [
       {
         type: 'twitter',
-        url: 'https://twitter.com/pcambra',
+        url: 'https://twitter.com/tatarbj',
       },
       {
         type: 'linkedin',
-        url: 'https://www.linkedin.com/in/pcambra/',
+        url: 'https://www.linkedin.com/in/balázs-jános-tatár-45781353/',
+      }
+    ],
+  },
+  {
+    name: 'Lauren Kelly',
+    nickname: 'lauren-kelly',
+    position: 'Engagement Manager @ Pantheon',
+    countries: ['United States of America'],
+    links: [
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/unreality',
+      }
+    ],
+  },
+  {
+    name: 'Gábor Hojtsy',
+    nickname: 'gábor-hojtsy',
+    position: 'Initiative coordinator coordinator @ Acquia',
+    countries: ['Hungary'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'http://twitter.com/gaborhojtsy',
+      },
+      {
+        type: 'linkedin',
+        url: 'http://www.linkedin.com/pub/g%C3%A1bor-hojtsy/54/583/228',
       }
     ],
   },
@@ -117,7 +133,7 @@ const FrontpageFeaturedSpeakers = () => (
   <section className="section align-center speakers">
     <div className="container">
 
-      <span className="icon section-icon icon-faces-users-04" />
+      <span className="icon section-icon icon-education-science-08" />
       <h3>Meet our Speakers</h3>
 
       <br/>
@@ -125,7 +141,7 @@ const FrontpageFeaturedSpeakers = () => (
 
       <div className="row">
         {speakers.map(speaker => (
-          <div className="col-12 col-sm-4" key={speaker.name}>
+          <div className="col-12 col-sm-3" key={speaker.name}>
             <Speaker {...speaker} />
           </div>
         ))}

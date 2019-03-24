@@ -35,62 +35,34 @@ const speakers = [
     ],
   },
   {
-    name: 'Tatár Balázs János',
-    nickname: 'tatarbj',
-    position: 'CTO @ Petend',
-    countries: ['Hungary'],
+    name: 'Angie Byron',
+    nickname: 'webchick',
+    position: 'Director, Community Development @ Acquia',
+    countries: ['Canada'],
     links: [
       {
         type: 'twitter',
-        url: 'https://twitter.com/tatarbj',
+        url: 'http://twitter.com/webchick',
       },
       {
         type: 'linkedin',
-        url: 'https://www.linkedin.com/in/balázs-jános-tatár-45781353/',
-      }
-    ],
-  },
-/*  {
-    name: 'Daniel Wehner',
-    nickname: 'dawehner',
-    position: 'Senior Engineer @ Times Higher Education',
-    countries: ['Germany'],
-    links: [
-      {
-        type: 'twitter',
-        url: 'https://twitter.com/da_wehner',
-      },
-      {
-        type: 'linkedin',
-        url: 'https://www.linkedin.com/in/daniel-wehner-70994385/',
-      }
-    ],
-  },*/
-  {
-    name: 'Pedro Cambra',
-    nickname: 'pcambra',
-    position: 'Founder @ Cambrico',
-    countries: ['Spain'],
-    links: [
-      {
-        type: 'twitter',
-        url: 'https://twitter.com/pcambra',
-      },
-      {
-        type: 'linkedin',
-        url: 'https://www.linkedin.com/in/pcambra/',
+        url: 'http://www.linkedin.com/in/webchick',
       }
     ],
   },
   {
-    name: 'Lauren Kelly',
-    nickname: 'lauren-kelly',
-    position: 'Engagement Manager @ Pantheon',
-    countries: ['United States of America'],
+    name: 'Bojan Živanović',
+    nickname: 'bojanz',
+    position: 'Lead Developer @ Commerce Guys',
+    countries: ['Serbia'],
     links: [
       {
+        type: 'twitter',
+        url: 'https://twitter.com/bojan_zivanovic',
+      },
+      {
         type: 'linkedin',
-        url: 'https://www.linkedin.com/in/unreality',
+        url: 'https://www.linkedin.com/in/bojanzivanovic/',
       }
     ],
   },
@@ -111,18 +83,50 @@ const speakers = [
     ],
   },
   {
-    name: 'Bojan Živanović',
-    nickname: 'bojanz',
-    position: 'Developer @ Commerce Guys',
-    countries: ['Serbia'],
+    name: 'Tatár Balázs János',
+    nickname: 'tatarbj',
+    position: 'CTO @ Petend',
+    countries: ['Hungary'],
     links: [
       {
         type: 'twitter',
-        url: 'https://twitter.com/bojan_zivanovic',
+        url: 'https://twitter.com/tatarbj',
       },
       {
         type: 'linkedin',
-        url: 'https://www.linkedin.com/in/bojanzivanovic/',
+        url: 'https://www.linkedin.com/in/balázs-jános-tatár-45781353/',
+      }
+    ],
+  },
+  {
+    name: 'Kate Marshalkina',
+    nickname: 'kalabro',
+    position: 'Tech Lead @ SystemSeed',
+    countries: ['Russia'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'https://twitter.com/kalabro',
+      },
+      {
+        type: 'github',
+        url: 'https://github.com/kalabro',
+      },
+    ],
+  },
+  {
+    name: 'Gábor Hojtsy',
+    nickname: 'gábor-hojtsy',
+    position: 'Initiative coordinator coordinator @ Acquia',
+    countries: ['Hungary'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'http://twitter.com/gaborhojtsy',
+      },
+      {
+        type: 'linkedin',
+        url: 'http://www.linkedin.com/pub/g%C3%A1bor-hojtsy/54/583/228',
       }
     ],
   },
@@ -142,13 +146,121 @@ const speakers = [
       }
     ],
   },
+  {
+    name: 'Igor Cheledinov',
+    nickname: 'chilic',
+    position: 'Solutions Architect @ Freelance',
+    countries: ['Belarus'],
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/chilic',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/chilic',
+      },
+    ],
+  },
+  {
+    name: 'Lauren Kelly',
+    nickname: 'lauren-kelly',
+    position: 'Engagement Manager @ Pantheon',
+    countries: ['United States of America'],
+    links: [
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/unreality',
+      }
+    ],
+  },
+  {
+    name: 'Evgeniy Maslovskiy',
+    nickname: 'spleshka',
+    position: 'CTO @ SystemSeed',
+    countries: ['Belarus'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'https://twitter.com/Spleshka',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/evgeniy-maslovskiy-a568a879',
+      },
+    ],
+  },
+  {
+    name: 'Alex Schedrov',
+    nickname: 'sanchiz',
+    position: 'CEO @ Five Jars',
+    countries: ['Ukraine'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'http://twitter.com/alexschedrov',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/alexschedrov',
+      },
+    ],
+  },
+  {
+    name: 'Andrei Posudevsky',
+    nickname: 'aposudevsky',
+    position: 'Team Lead @ We are you',
+    countries: ['Netherlands'],
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/aposudevsky',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/andrey-posudevsky-b7248b58/',
+      },
+    ],
+  },
+  {
+    name: 'Sergey Korzh',
+    nickname: 'skorzh',
+    position: 'Senior Developer @ SystemSeed',
+    countries: ['Belarus'],
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/ikorgik',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/sergey-korzh-49a25a34',
+      },
+    ],
+  },
+  {
+    name: 'Roland Molnár',
+    nickname: 'roland.molnar',
+    position: 'Senior Developer @ Technocrat',
+    countries: ['Hungary'],
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/moroland',
+      },
+      {
+        type: 'linkedin',
+        url: 'http://www.linkedin.com/in/rolandmolnar',
+      },
+    ],
+  },
 ];
 
 const Speakers = () => (
   <section className="section align-center speakers mobile-padding">
     <div className="container">
 
-      <span className="icon section-icon icon-faces-users-04" />
+      <span className="icon section-icon icon-education-science-08" />
       <h3>Meet our Speakers</h3>
 
       <br/>
