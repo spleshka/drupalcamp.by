@@ -265,13 +265,16 @@ const Schedule = () => (
         <div className="session" style={{borderBottom: '1px solid #333'}}>
 
           <div className="row">
-            <div className="col-md-12" style={{padding: session.type === 'break' ? '20px 0' : '20px 0 0', color: session.type === 'break' ? 'rgb(186, 191, 204)' : '#1ac6ff'}}>
+            <div className="col-md-12" style={{
+              padding: session.type === 'break' ? '20px 0' : '20px 0 0',
+              color: session.type === 'break' ? 'rgb(186, 191, 204)' : '#1ac6ff'
+            }}>
               <strong className="time">
                 <span
                   className={`icon ${session.icon ? session.icon : 'icon-office-24'}`}
-                  style={{ marginRight: '8px', verticalAlign: 'middle', color: '#babfcc'}}
+                  style={{ marginRight: '8px', verticalAlign: 'middle', color: '#babfcc' }}
                 />
-                {session.time}
+                <span style={{ fontWeight: 'bold', fontSize: '16px' }}>{session.time}</span>
                 </strong>
             </div>
           </div>
@@ -281,7 +284,10 @@ const Schedule = () => (
             {session.data.map(item => (
               <div
                 className={session.data.length === 1 ? 'col-md-12' : 'col-md-3'}
-                style={{padding: '20px', color: 'white'}}>
+                style={{
+                  padding: '20px',
+                  color: 'white',
+                }}>
 
                 <div className="title">
                   {item.language &&
@@ -293,12 +299,12 @@ const Schedule = () => (
                     title={`Language: ${item.language === 'ru' ? 'Russian' : 'English'}`}
                   />
                   }
-                  {item.title}
+                  <span style={{ fontSize: '16px' }}>{item.title}</span>
                 </div>
 
 
                 {item.speakers &&
-                <div className="name highlight" style={{fontSize: '11px'}}>
+                <div className="name highlight" style={{fontSize: '14px'}}>
                   {item.speakers.join(', ')}
                 </div>
                 }
