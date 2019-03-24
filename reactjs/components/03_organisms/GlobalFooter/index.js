@@ -17,8 +17,23 @@ const GlobalFooter = () => (
 
           <ul className="socials-nav align-right">
             <li className="socials-nav-item">
-              <a href="https://twitter.com/@DrupalCampBy" target="_blank">
+              <a href="https://twitter.com/drupalcampby" target="_blank">
                 <span className="fa fa-twitter" />
+              </a>
+            </li>
+            <li className="socials-nav-item">
+              <a href="https://www.facebook.com/Drupal-Camp-Belarus-561950297656804/" target="_blank">
+                <span className="fa fa-facebook" />
+              </a>
+            </li>
+            <li className="socials-nav-item">
+              <a href="https://instagram.com/drupalcampbelarus" target="_blank">
+                <span className="fa fa-instagram" />
+              </a>
+            </li>
+            <li className="socials-nav-item">
+              <a href="https://join.slack.com/t/drupal-belarus/shared_invite/enQtNTc1MTkwMTUxNzAyLWZlMjVlZmY0YmJlOGM3YzkxN2M0ZjNiZGUwNjhhMDBmY2Q0MDZjZTg4ZGUyNDFiZGM2MmVlY2YwZmJmYzE3Y2U" target="_blank">
+                <span className="fa fa-slack" />
               </a>
             </li>
           </ul>
