@@ -1,0 +1,14 @@
+#sign_up {
+  
+  a {
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    transition: .3s all;
+    
+    &:hover {
+      opacity: .8;
+    }
+  }
+}
