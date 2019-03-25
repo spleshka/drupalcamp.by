@@ -207,7 +207,7 @@ const speakers = [
     ],
   },
   {
-    name: 'Andrei Posudevsky',
+    name: 'Andrey Posudevsky',
     nickname: 'aposudevsky',
     position: 'Team Lead @ We are you',
     countries: ['Netherlands'],
