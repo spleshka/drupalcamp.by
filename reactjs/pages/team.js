@@ -57,8 +57,8 @@ const team = [
     countries: ['Belarus'],
     links: [
       {
-        type: 'twitter',
-        url: 'https://twitter.com/gena_by',
+        type: 'facebook',
+        url: 'https://www.facebook.com/henadzi.koltun',
       },
       {
         type: 'linkedin',
