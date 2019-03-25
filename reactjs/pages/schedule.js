@@ -130,7 +130,7 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Voice Assistants - change how users with disabilities Get Things Done',
+        title: 'Future of The Voice-Powered Web with Voice Assistants',
         speakers: ['Alex Schedrov'],
         language: 'en',
       },
@@ -156,9 +156,9 @@ const sessions = [
     type: 'session',
     data: [
       {
-        title: 'Cutting edge web apps powered by Drupal', // TODO: To specify topic
+        title: 'Headless static websites and PWAs with Gatsby and Drupal. Based on true story.',
         speakers: ['Andrey Posudevsky'],
-        language: 'en', // TODO: To confirm with the speaker
+        language: 'en',
       },
       {
         title: 'Real life Machine Learning use cases for Drupal',
