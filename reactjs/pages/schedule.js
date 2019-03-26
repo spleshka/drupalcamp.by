@@ -42,9 +42,8 @@ const sessions = [
         language: 'ru',
       },
       {
-        title: 'From User Stories to Use Cases: Tell the Full Story',
-        speakers: ['Lauren Kelly'],
-        language: 'en',
+        title: '[placeholder]',
+        speakers: ['[placeholder]'],
       },
       {
         title: 'Drupal as an enterprise platform for building and supporting 1000 of sites',
@@ -73,7 +72,7 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'How to make remote working efficient as well as fun', // TODO: Change to RU.
+        title: 'Как работать удаленно максимально эффективно и не сойти с ума',
         speakers: ['Sergey Korzh'],
         language: 'ru',
       },
@@ -165,13 +164,14 @@ const sessions = [
         language: 'ru',
       },
       {
-        title: '[placeholder]',
-        speakers: ['[placeholder]'],
+        title: 'From User Stories to Use Cases: Tell the Full Story',
+        speakers: ['Lauren Kelly'],
+        language: 'en',
       },
       {
-        title: 'Use Lando, Luke...', // TODO: To update topic title
+        title: 'Сравнение инструментов локальной разработки: docker4drupal, lando, docksal, ddev и другие',
         speakers: ['Alexander Dubovskoy'],
-        language: 'en', // TODO: To confirm with the speaker
+        language: 'ru',
       },
     ],
   },
