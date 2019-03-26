@@ -16,7 +16,7 @@ const sessions = [
     type: 'session',
     data: [
       {
-        title: 'Opening Keynote: [title:placeholder]', // TODO: To specify topic
+        title: 'Opening Keynote', // TODO: To specify topic
         speakers: ['Jeffrey A. McGuire'],
         language: 'en',
       },
@@ -73,7 +73,7 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'How to make remote working efficient as well as fun',
+        title: 'How to make remote working efficient as well as fun', // TODO: Change to RU.
         speakers: ['Sergey Korzh'],
         language: 'ru',
       },
@@ -99,14 +99,13 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Tips about Drupal configuration, Drupal 8 caching and BigPipe, esi, cache tags and etc.',
+        title: 'Drupal Performance tips: configs optimization, partial caching, BigPipe and ESI',
         speakers: ['Igor Cheledinov'],
         language: 'en',
       },
       {
-        title: 'Катим спринт к релизу', // TODO: сделать заголовок лучше
-        speakers: ['Slava Kasihin'],
-        language: 'ru',
+        title: '[placeholder]',
+        speakers: ['[placeholder]'],
       },
       {
         title: 'Tokaido - Seriously fast local Drupal dev environments',
@@ -125,7 +124,7 @@ const sessions = [
     type: 'session',
     data: [
       {
-        title: '[title:placeholder]',  // TODO: To specify topic
+        title: 'Tales of Drupal Past: Origin Stories of Drupal Contributor',
         speakers: ['Angie Byron'],
         language: 'en',
       },
@@ -166,13 +165,12 @@ const sessions = [
         language: 'ru',
       },
       {
-        title: 'Drupal 8: Journey to the center of the earth',
-        speakers: ['Boris Nikulin'],
-        language: 'ru',
+        title: '[placeholder]',
+        speakers: ['[placeholder]'],
       },
       {
         title: 'Use Lando, Luke...', // TODO: To update topic title
-        speakers: ['Alexander Dubovskloy'],
+        speakers: ['Alexander Dubovskoy'],
         language: 'en', // TODO: To confirm with the speaker
       },
     ],
@@ -187,23 +185,23 @@ const sessions = [
     type: 'session',
     data: [
       {
-        title: '[title:placeholder]', // TODO: To specify topic
+        title: '[placeholder]', // TODO: To specify topic
         speakers: ['Andy Postnikov'],
         language: 'en', // TODO: To confirm with the speaker
       },
       {
-        title: '[title:placeholder]', // TODO: To put topic
-        speakers: ['[speaker:placeholder]'], // TODO: To put speaker
+        title: '[placeholder]', // TODO: To put topic
+        speakers: ['[placeholder]'], // TODO: To put speaker
         /*language: 'en',*/
       },
       {
         title: 'Panel Talk: Headless VS Traditional Drupal',
-        speakers: ['[speaker:placeholder]'], // TODO: To put speakers
+        speakers: ['[placeholder]'], // TODO: To put speakers
         language: 'ru',
       },
       {
-        title: '[title:placeholder]', // TODO: To put topic
-        speakers: ['[speaker:placeholder]'], // TODO: To put speaker
+        title: '[placeholder]', // TODO: To put topic
+        speakers: ['[placeholder]'], // TODO: To put speaker
         /*language: 'en',*/
       },
     ],
@@ -218,7 +216,7 @@ const sessions = [
     type: 'session',
     data: [
       {
-        title: 'Closing Keynote: [title:placeholder]', // TODO: To specify topic
+        title: 'Closing Keynote', // TODO: To specify topic
         speakers: ['Steve Persh'],
         language: 'en',
       },

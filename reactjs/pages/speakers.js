@@ -175,6 +175,18 @@ const speakers = [
     ],
   },
   {
+    name: 'Pavel Makhrinsky',
+    nickname: 'gumanist',
+    position: 'CEO @ Devalma',
+    countries: ['Ukraine'],
+    links: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/gumanist',
+      },
+    ],
+  },
+  {
     name: 'Evgeniy Maslovskiy',
     nickname: 'spleshka',
     position: 'CTO @ SystemSeed',
@@ -251,6 +263,94 @@ const speakers = [
       {
         type: 'linkedin',
         url: 'http://www.linkedin.com/in/rolandmolnar',
+      },
+    ],
+  },
+  {
+    name: 'Alexander Dubovskoy',
+    nickname: 'adubovskoy',
+    position: 'Developer @ Radon',
+    countries: ['Russia'],
+    links: [
+      {
+        type: 'facebook',
+        url: 'https://www.facebook.com/adubovskoy',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/alexander-dubovskoy-875b3b58',
+      }
+    ],
+  },
+  {
+    name: 'Alexandr Davyskiba',
+    nickname: 'zviryatko',
+    position: 'Technical Lead @ Ciklum',
+    countries: ['Ukraine'],
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/zviryatko',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/zviryatko',
+      },
+    ],
+  },
+  {
+    name: 'Dmitry Morozov',
+    nickname: 'webmorozov',
+    position: 'Lead Software Engineer @ EPAM',
+    countries: ['Belarus'],
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/webmorozov',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/webmorozov',
+      },
+    ],
+  },
+  {
+    name: 'Denis Gavrilovich',
+    nickname: 'rodman1980',
+    position: 'Lead Software Engineer @ EPAM',
+    countries: ['Belarus'],
+    links: [
+      {
+        type: 'github',
+        url: 'https://github.com/rodman1980',
+      },
+    ],
+  },
+  {
+    name: 'Ivan Abramenko',
+    nickname: 'levmyshkin',
+    position: 'Drupal Developer @ Technocrat',
+    countries: ['Russia'],
+    links: [
+      {
+        type: 'youtube',
+        url: 'https://www.youtube.com/c/IvanAbramenko',
+      },
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/ivan-abramenko/',
+      },
+    ],
+  },
+  {
+    name: 'Evgenii Nikitin',
+    nickname: 'sinn',
+    position: 'Drupal Team Leader @ Smile/Adyax',
+    countries: ['Russia'],
+    links: [
+      {
+        type: 'linkedin',
+        url: 'http://ru.linkedin.com/in/nikitinevgeny',
       },
     ],
   },

@@ -1,8 +1,28 @@
 @media (min-width: 768px) {
   .nav.nav-schedule {
+    border: none;
+
+    &:after,
+    &:before {
+      display: none;
+    }
 
     > li {
       width: 33%;
+      background-color: #262627 !important;
+      border: none;
+
+      &:after {
+        display: none;
+      }
+
+      &:first-child {
+        border-right: 1px solid #333;
+      }
+
+      &:last-child {
+        border-left: 1px solid #333;
+      }
     }
   }
 
@@ -13,6 +33,7 @@
 
 @media (max-width: 767px) {
   .nav, .nav.nav-tabs, .nav.nav-schedule, .schedule .tab-content .nav.nav-schedule, .tabs-vertical .nav.nav-tabs {
+    background: none;
     position: static;
     padding: 0;
     margin: 0;
@@ -26,6 +47,10 @@
     a {
       text-align: center !important;
     }
+
+    p {
+      color: white !important;
+    }
   }
 
   .schedule-heading {
@@ -34,5 +59,6 @@
 
   .schedule {
     margin-bottom: 20px;
+    background: none;
   }
 }

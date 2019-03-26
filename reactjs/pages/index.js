@@ -36,10 +36,10 @@ class HomePage extends React.Component {
         <StickyContainer>
           <MainNavigation />
           <FrontpageFeaturedSpeakers />
+          <Schedule />
+          <FrontpageBuyTickets />
           <FrontpageCountdown />
           <FrontpageIntro />
-          <FrontpageBuyTickets />
-          <Schedule />
           <Newsletter/>
           <FrontpageLocation />
         </StickyContainer>
