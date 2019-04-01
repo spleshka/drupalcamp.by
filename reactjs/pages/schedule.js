@@ -72,14 +72,14 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Как работать удаленно максимально эффективно и не сойти с ума',
+        title: 'Как работать удаленно с максимальной эффективностью и не сойти с ума',
         speakers: ['Sergey Korzh'],
         language: 'ru',
       },
       {
         title: 'Creating web app with Drupal, GraphQL and React',
         speakers: ['Ivan Abramenko'],
-        language: 'en', // TODO: To confirm!!!
+        language: 'en',
       },
     ],
   },
@@ -135,7 +135,7 @@ const sessions = [
       {
         title: 'Working with requirements', // TODO: сделать заголовок лучше
         speakers: ['Pavel Makhrinskyi'],
-        language: 'en', // TODO: To confirm
+        language: 'en',
       },
       {
         title: 'Component based theming in Drupal 8',
