@@ -16,7 +16,7 @@ const Tickets = () => (
       <div className="row">
 
         <div className="col-sm-6">
-          <div className="package-panel">
+          <div className="package-panel" style={{ opacity: 0.5 }}>
             <h6 className="package-title">Early Bird <small>(until April, 2019)</small></h6>
             <div className="package-detail">
               <ul>
@@ -25,15 +25,15 @@ const Tickets = () => (
                 <li><span className="fa fa-check check-icon" />Free lunch</li>
                 <li><span className="fa fa-check check-icon" />Free coffee & snacks</li>
                 <li className="disabled"><span className="fa fa-times absent-icon" />Individual Sponsor Promotion</li>
-                <li className="disabled"><span className="fa fa-times absent-icon" />Invite to special after-party event</li>
+                <li className="disabled"><span className="fa fa-times absent-icon" />Invite to special Thank You party</li>
               </ul>
             </div>
-            <a href="https://bezkassira.by/en/buy/5234/" target="_blank" className="buy-btn">
+            <a  target="_blank" className="buy-btn"  style={{ opacity: 0.4 }}>
               <div className="centered">
                 <div className="price" style={{ marginBottom: 0 }}>50</div>
                 <div className="price" style={{ fontSize: '20px' }}>BYN</div>
                 <div style={{ marginBottom: '20px' }}><small>~20 EUR</small></div>
-                <h6 className="heading-alt">Buy now</h6>
+                <h6 className="heading-alt">Sold out</h6>
               </div>
             </a>
           </div>
@@ -49,23 +49,23 @@ const Tickets = () => (
                 <li><span className="fa fa-check check-icon" />Free lunch</li>
                 <li><span className="fa fa-check check-icon" />Free coffee & snacks</li>
                 <li className="disabled"><span className="fa fa-times absent-icon" />Individual Sponsor Promotion</li>
-                <li className="disabled"><span className="fa fa-times absent-icon" />Invite to special after-party event</li>
+                <li className="disabled"><span className="fa fa-times absent-icon" />Invite to special Thank You party</li>
               </ul>
             </div>
-            <a target="_blank" className="buy-btn" style={{ opacity: 0.4 }}>
+            <a href="https://bezkassira.by/en/buy/5234/" target="_blank" className="buy-btn">
               <div className="centered">
                 <div className="price" style={{ marginBottom: 0 }}>70</div>
                 <div className="price" style={{ fontSize: '20px' }}>BYN</div>
                 <div style={{ marginBottom: '20px' }}><small>~28 EUR</small></div>
-                <h6 className="heading-alt">Not available</h6>
+                <h6 className="heading-alt">Buy now</h6>
               </div>
             </a>
           </div>
         </div>
 
         <div className="col-sm-6">
-          <div className="package-panel">
-            <h6 className="package-title">Late Bird <small>(from May, 2019)</small></h6>
+          <div className="package-panel" style={{ opacity: 0.5 }}>
+            <h6 className="package-title">Angry Bird <small>(in May, 2019)</small></h6>
             <div className="package-detail">
               <ul>
                 <li><span className="fa fa-check check-icon" />Sessions, BOFs</li>
@@ -73,7 +73,7 @@ const Tickets = () => (
                 <li><span className="fa fa-check check-icon" />Free lunch</li>
                 <li><span className="fa fa-check check-icon" />Free coffee & snacks</li>
                 <li className="disabled"><span className="fa fa-times absent-icon" />Individual Sponsor Promotion</li>
-                <li className="disabled"><span className="fa fa-times absent-icon" />Invite to special after-party event</li>
+                <li className="disabled"><span className="fa fa-times absent-icon" />Invite to special Thank You party</li>
               </ul>
             </div>
             <a target="_blank" className="buy-btn" style={{ opacity: 0.4 }}>
@@ -97,7 +97,7 @@ const Tickets = () => (
                 <li><span className="fa fa-check check-icon" />Free lunch</li>
                 <li><span className="fa fa-check check-icon" />Free coffee & snacks</li>
                 <li><span className="fa fa-check check-icon" />Individual Sponsor Promotion</li>
-                <li><span className="fa fa-check check-icon" />Invite to special after-party event</li>
+                <li><span className="fa fa-check check-icon" />Invite to special Thank You party</li>
               </ul>
             </div>
             <a href="https://bezkassira.by/en/buy/5234/" target="_blank" className="buy-btn">
