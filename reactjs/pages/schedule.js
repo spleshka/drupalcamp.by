@@ -216,7 +216,7 @@ const sessions = [
     type: 'session',
     data: [
       {
-        title: 'Closing Keynote', // TODO: To specify topic
+        title: 'Closing Keynote: We Make the Internet',
         speakers: ['Steve Persh'],
         language: 'en',
       },
