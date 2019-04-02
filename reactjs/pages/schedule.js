@@ -68,7 +68,7 @@ const sessions = [
       },
       {
         title: 'Let’s write secure Drupal code!',
-        speakers: ['Bálazs János Tatár'],
+        speakers: ['Balázs János Tatár'],
         language: 'en',
       },
       {

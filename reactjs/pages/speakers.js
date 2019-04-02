@@ -83,7 +83,7 @@ const speakers = [
     ],
   },
   {
-    name: 'Tatár Balázs János',
+    name: 'Balázs János Tatár',
     nickname: 'tatarbj',
     position: 'CTO @ Petend',
     countries: ['Hungary'],
