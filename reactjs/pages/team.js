@@ -128,7 +128,17 @@ const volunteers = [
     name: 'Peter Lozovitsky',
     nickname: 'petr.lozovitskiy',
     position: 'Freelancer @ UpWork',
-  }
+  },
+  {
+    name: 'Luke Shahinian',
+    nickname: 'luke.shahinian',
+    position: 'Graphic Designer @ Freelance',
+  },
+  {
+    name: 'Alexander Dunin',
+    nickname: 'dunin',
+    position: 'Senior Software Engineer @ DrupalSquad',
+  },
 ];
 
 const OrganizersPage = () => (

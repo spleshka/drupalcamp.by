@@ -185,7 +185,7 @@ const Sponsors = () => (
 
     <section className="section align-center speakers mobile-padding">
       <div className="container">
-        <span className="icon section-icon icon-shopping-02" />
+        <span className="icon section-icon icon-seo-icons-38" />
         <h3>Meet our Sponsors</h3>
       </div>
     </section>

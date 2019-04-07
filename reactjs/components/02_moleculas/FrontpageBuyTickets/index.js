@@ -7,6 +7,7 @@ class FrontpageBuyTickets extends React.Component {
       <section id="register" className="section  align-center">
         <div className="container">
 
+          <span className="icon section-icon icon-travel-transportation-04" />
           <h2>Get your ticket now!</h2>
           <p>Become a part of the biggest Belarusian Drupal event ever.</p>
 

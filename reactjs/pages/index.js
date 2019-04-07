@@ -6,6 +6,7 @@ import FrontpageIntro from '../components/02_moleculas/FrontpageIntro';
 import FrontpageFeaturedSpeakers from '../components/02_moleculas/FrontpageFeaturedSpeakers';
 import FrontpageCountdown from '../components/02_moleculas/FrontpageCountdown';
 import FrontpageBuyTickets from '../components/02_moleculas/FrontpageBuyTickets';
+import FrontpagePartners from '../components/02_moleculas/FrontpagePartners';
 import FrontpageLocation from '../components/02_moleculas/FrontpageLocation';
 import Schedule from '../components/02_moleculas/Schedule';
 import Newsletter from '../components/02_moleculas/Newsletter';
@@ -39,7 +40,8 @@ class HomePage extends React.Component {
           <Schedule />
           <FrontpageBuyTickets />
           <FrontpageCountdown />
-          <FrontpageIntro />
+          {/*<FrontpageIntro />*/}
+          <FrontpagePartners/>
           <Newsletter/>
           <FrontpageLocation />
         </StickyContainer>

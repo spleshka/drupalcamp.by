@@ -5,12 +5,30 @@ const GlobalFooter = () => (
     <div className="footer-base">
       <div className="container">
 
-        <div className="col-md-6">
+        <div className="col-md-3">
           <ul className="footer-nav">
             <li className="footer-nav-item">
               <a href="https://www.drupal.org/dcoc" target="_blank">Code of Conduct</a>
             </li>
           </ul>
+        </div>
+
+        <div className="col-md-3">
+          <div className="platform_sh_widget">
+            Hosting sponsored by the
+            <a
+              title="platform.sh"
+              href="https://platform.sh?medium=referral&utm_campaign=sponsored_sites&utm_source=drupalcamp_belarus"
+              target="_blank"
+            >
+              <img
+                className="platformsh-logo"
+                src="https://platform.sh/images/logo-white-2x.png"
+                alt="Platform.sh logo"
+                style={{ maxWidth: '180px' }}
+              />
+            </a>
+          </div>
         </div>
 
         <div className="col-md-6 align-right">

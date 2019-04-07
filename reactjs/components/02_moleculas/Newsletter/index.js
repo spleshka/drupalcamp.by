@@ -31,6 +31,7 @@ class Newsletter extends React.Component {
     return (
       <section id="sign_up" className="section  overlay light-text align-center">
         <div className="container">
+          <span className="icon section-icon icon-chat-messages-16" />
           <h2>Keep me <span className="highlight">updated</span></h2>
           <small>Subscribe to our latest news!</small>
           <br/>
