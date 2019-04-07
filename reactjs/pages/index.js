@@ -40,9 +40,9 @@ class HomePage extends React.Component {
           <Schedule />
           <FrontpageBuyTickets />
           <FrontpageCountdown />
-          {/*<FrontpageIntro />*/}
-          <FrontpagePartners/>
+          <FrontpageIntro />
           <Newsletter/>
+          <FrontpagePartners/>
           <FrontpageLocation />
         </StickyContainer>
       </>
