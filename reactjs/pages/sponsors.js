@@ -159,6 +159,10 @@ const individualSponsors = [
     nickname: 'username',
   },
   {
+    name: 'Maksim Yudin',
+    nickname: 'maksim.yudin',
+  },
+  {
     name: 'Anand Vasan',
     nickname: 'username',
   },
@@ -172,10 +176,6 @@ const individualSponsors = [
   },
   {
     name: 'Vladyslav Bogatyrov',
-    nickname: 'username',
-  },
-  {
-    name: 'Maksim Yudin',
     nickname: 'username',
   },
 ];
