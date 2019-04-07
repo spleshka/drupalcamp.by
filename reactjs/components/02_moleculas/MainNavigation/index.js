@@ -116,8 +116,10 @@ class MainNavigation extends React.Component {
                 </li>
 
                 <li className="navigation-item dropdown">
-                  <a className={`navigation-link dropdown-toggle ${router.route === '/sponsors' || router.route === '/become-sponsor' ? 'active' : ''}`}>Sponsors</a>
-                  <ul className="dropdown-menu">
+                  <Link to="/sponsors">
+                    <a className={`navigation-link dropdown-toggle ${router.route === '/sponsors' || router.route === '/become-sponsor' ? 'active' : ''}`}>Sponsors</a>
+                  </Link>
+                    <ul className="dropdown-menu">
 
                     <li className="navigation-item">
                       <a
