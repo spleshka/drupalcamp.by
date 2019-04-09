@@ -164,19 +164,19 @@ const individualSponsors = [
   },
   {
     name: 'Anand Vasan',
-    nickname: 'username',
+    nickname: 'anand.vasan',
   },
   {
     name: 'David Colwell',
-    nickname: 'username',
+    nickname: 'david.colwell',
   },
   {
     name: 'Elena Sysoeva',
-    nickname: 'username',
+    nickname: 'elena.sysoeva',
   },
   {
     name: 'Vladyslav Bogatyrov',
-    nickname: 'username',
+    nickname: 'vlad.bogatyrov',
   },
 ];
 
