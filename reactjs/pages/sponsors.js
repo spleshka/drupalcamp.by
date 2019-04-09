@@ -178,6 +178,10 @@ const individualSponsors = [
     name: 'Vladyslav Bogatyrov',
     nickname: 'vlad.bogatyrov',
   },
+  {
+    name: 'Alex Lyzo',
+    nickname: 'alex.lyzo',
+  },
 ];
 
 const Sponsors = () => (
