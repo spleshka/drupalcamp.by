@@ -23,7 +23,7 @@ const GlobalFooter = () => (
             >
               <img
                 className="platformsh-logo"
-                src="https://platform.sh/images/logo-white-2x.png"
+                src="/static/assets/img/partners/platformsh.png"
                 alt="Platform.sh logo"
                 style={{ maxWidth: '180px' }}
               />

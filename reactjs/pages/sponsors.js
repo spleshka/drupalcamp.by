@@ -156,7 +156,7 @@ const individualSponsors = [
   },
   {
     name: 'Nikolay Shapovalov',
-    nickname: 'username',
+    nickname: 'nikolay.shapovalov',
   },
   {
     name: 'Maksim Yudin',
