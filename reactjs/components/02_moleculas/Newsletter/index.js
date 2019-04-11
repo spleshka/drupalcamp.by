@@ -3,7 +3,7 @@ import MailchimpSubscribe from 'react-mailchimp-subscribe';
 
 const socials = [
   {
-    url: 'https://join.slack.com/t/drupal-belarus/shared_invite/enQtNTc1MTkwMTUxNzAyLWZlMjVlZmY0YmJlOGM3YzkxN2M0ZjNiZGUwNjhhMDBmY2Q0MDZjZTg4ZGUyNDFiZGM2MmVlY2YwZmJmYzE3Y2U',
+    url: 'https://join.slack.com/t/drupal-belarus/shared_invite/enQtNjA5Njg3MzE5MTU4LWZiMzE0ZDczNzE0ZmRmY2EzOTZiYTU5ZTNiOTIwYmJiNjQwYjkzZTVhZGRhNjFlMjZjZWMwMTU1ZmMxOTc5MjI',
     imageURL: '/static/assets/img/social/slack.png',
     label: 'Slack',
   },

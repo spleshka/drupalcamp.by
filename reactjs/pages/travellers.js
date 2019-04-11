@@ -319,7 +319,7 @@ const Travellers = () => (
             <div className="row btns-block" style={{margin: 0, paddingBottom: 0}}>
               <a
                 
-                href="https://join.slack.com/t/drupal-belarus/shared_invite/enQtNTc1MTkwMTUxNzAyLWZlMjVlZmY0YmJlOGM3YzkxN2M0ZjNiZGUwNjhhMDBmY2Q0MDZjZTg4ZGUyNDFiZGM2MmVlY2YwZmJmYzE3Y2U"
+                href="https://join.slack.com/t/drupal-belarus/shared_invite/enQtNjA5Njg3MzE5MTU4LWZiMzE0ZDczNzE0ZmRmY2EzOTZiYTU5ZTNiOTIwYmJiNjQwYjkzZTVhZGRhNjFlMjZjZWMwMTU1ZmMxOTc5MjI"
                 target="_blank"
                 className="btn btn-sm"
               >
