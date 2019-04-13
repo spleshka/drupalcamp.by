@@ -199,7 +199,6 @@ const Sponsors = () => (
       <div className="container">
         <h5 className="heading-alt">Platinum Sponsor</h5>
         <br/>
-        <br/>
         {platinumSponsors.map(sponsor => (
           <div className="col-sm-12">
             <div className="speaker">
@@ -225,10 +224,9 @@ const Sponsors = () => (
     }
 
     {goldSponsors.length > 0 &&
-    <section className="section align-center"  style={{ paddingBottom: 0 }}>
+    <section className="section align-center"  style={{ padding: 0 }}>
       <div className="container">
         <h5 className="heading-alt">Gold Sponsors</h5>
-        <br/>
         <br/>
         {goldSponsors.map(sponsor => (
           <div className="col-sm-12">
@@ -255,10 +253,9 @@ const Sponsors = () => (
     }
 
     {silverSponsors.length > 0 &&
-    <section className="section align-center"  style={{ paddingBottom: 0 }}>
+    <section className="section align-center"  style={{ padding: 0 }}>
       <div className="container">
         <h5 className="heading-alt">Silver Sponsors</h5>
-        <br/>
         <br/>
         {silverSponsors.map(sponsor => (
           <div className="col-sm-6">
@@ -285,10 +282,9 @@ const Sponsors = () => (
     }
 
     {bronzeSponsors.length > 0 &&
-    <section className="section align-center"  style={{ paddingBottom: 0 }}>
+    <section className="section align-center"  style={{ padding: 0 }}>
       <div className="container">
         <h5 className="heading-alt">Bronze Sponsors</h5>
-        <br/>
         <br/>
         {bronzeSponsors.map(sponsor => (
           <div className="col-sm-6">
@@ -314,10 +310,9 @@ const Sponsors = () => (
     </section>
     }
 
-    <section className="section align-center" style={{ paddingBottom: 0 }} >
+    <section className="section align-center" style={{ padding: 0 }} >
       <div className="container">
         <h5 className="heading-alt">Individual Sponsors</h5>
-        <br/>
         <br/>
         <div className="row" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
           {individualSponsors.map(sponsor => (
