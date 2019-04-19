@@ -161,13 +161,12 @@ class MainNavigation extends React.Component {
                 </li>
               </ul>
 
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform"
-                className="hidden-xs pull-right btn btn-outline-clr btn-sm btn-session"
-                target="_blank"
-              >
-                Submit Session
-              </a>
+              <Link to="/tickets" prefetch>
+                <a className="hidden-xs pull-right btn btn-outline-clr btn-sm btn-session">
+                  Get Ticket
+                </a>
+              </Link>
+
             </div>
           </div>
         </div>

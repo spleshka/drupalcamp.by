@@ -2,7 +2,7 @@ import React from 'react';
 
 const FrontpageIntro = () => (
   <section className="fullwidth-section" style={{ margin: 0, position: 'relative', zIndex: '100', background: 'white' }}>
-
+{/*
     <div className="fullwidth-path">
       <div
         className="fullwidth-section-bg bg-right"
@@ -24,7 +24,7 @@ const FrontpageIntro = () => (
 
         </article>
       </div>
-    </div>
+    </div>*/}
 
     <div className="fullwidth-path">
       <div
@@ -45,9 +45,9 @@ const FrontpageIntro = () => (
             We expect <strong>25+ hand picked sessions</strong> to be presented to <strong>300+ guests</strong> from all over the globe.
           </p>
 
-          <div className="row btns-block" style={{ margin: 0, paddingBottom: 0 }}>
+          {/*<div className="row btns-block" style={{ margin: 0, paddingBottom: 0 }}>
             <a style={{ margin: 0 }} href="https://docs.google.com/forms/d/e/1FAIpQLSdAhC5VUP6d5qTLcJjNJ0KH2UjVT7d5SW5u1_zkd-DWt0cvbw/viewform" target="_blank" className="btn btn-sm">Submit Session</a>
-          </div>
+          </div>*/}
 
         </article>
       </div>
@@ -71,9 +71,9 @@ const FrontpageIntro = () => (
             Do you want even more parties & fun? Everyone who helps to make this event happen is invited to a special <strong>THANK YOU PARTY</strong> with national spirit and character!
           </p>
 
-          <div className="row btns-block" style={{ margin: 0, paddingBottom: 0 }}>
+          {/*<div className="row btns-block" style={{ margin: 0, paddingBottom: 0 }}>
             <a style={{ margin: 0 }} href="https://docs.google.com/forms/d/1Phr9Aurs-GSTfwN7U68uT10nYU2ubCHMPxdjhVJ0fqY" target="_blank" className="btn btn-sm">Join as Volunteer</a>
-          </div>
+          </div>*/}
 
         </article>
       </div>

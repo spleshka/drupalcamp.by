@@ -37,13 +37,14 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Войти в IT: Основы Web Frameworks на простых примерах',
-        speakers: ['Alexandr Davyskiba'],
-        language: 'ru',
-      },
-      {
         title: '[placeholder]',
         speakers: ['[placeholder]'],
+        //language: 'ru',
+      },
+      {
+        title: 'Design patterns? Easy!',
+        speakers: ['Olga Rabodzei'],
+        language: 'ru',
       },
       {
         title: 'Drupal as an enterprise platform for building and supporting 1000 of sites',
@@ -72,8 +73,8 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Как работать удаленно с максимальной эффективностью и не сойти с ума',
-        speakers: ['Sergey Korzh'],
+        title: 'Войти в IT: Основы Web Frameworks на простых примерах',
+        speakers: ['Alexandr Davyskiba'],
         language: 'ru',
       },
       {
@@ -103,11 +104,12 @@ const sessions = [
         language: 'en',
       },
       {
-        title: '[placeholder]',
-        speakers: ['[placeholder]'],
+        title: 'Observations about selling offshore services',
+        speakers: ['Chris Dykstra'],
+        language: 'en',
       },
       {
-        title: 'Tokaido - Seriously fast local Drupal dev environments',
+        title: 'Tokaido: server-grade local dev environment for Drupal developers',
         speakers: ['Roland Molnar'],
         language: 'en',
       },
@@ -128,8 +130,8 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Future of The Voice-Powered Web with Voice Assistants',
-        speakers: ['Alex Schedrov'],
+        title: 'High Performance Drupal. Hint: you likely need more than Drupal',
+        speakers: ['Ben Routson'],
         language: 'en',
       },
       {
@@ -185,24 +187,24 @@ const sessions = [
     type: 'session',
     data: [
       {
-        title: '[placeholder]', // TODO: To specify topic
+        title: 'Drupal 8: Best practise tips for developers',
         speakers: ['Andy Postnikov'],
         language: 'en', // TODO: To confirm with the speaker
       },
       {
-        title: '[placeholder]', // TODO: To put topic
-        speakers: ['[placeholder]'], // TODO: To put speaker
-        /*language: 'en',*/
+        title: 'Future of The Voice-Powered Web with Voice Assistants',
+        speakers: ['Alex Schedrov'],
+        language: 'en',
       },
       {
         title: 'Panel Talk: Headless VS Traditional Drupal',
         speakers: ['[placeholder]'], // TODO: To put speakers
-        language: 'ru',
+        language: 'en',
       },
       {
-        title: '[placeholder]', // TODO: To put topic
-        speakers: ['[placeholder]'], // TODO: To put speaker
-        /*language: 'en',*/
+        title: 'Как работать удаленно с максимальной эффективностью и не сойти с ума',
+        speakers: ['Sergey Korzh'],
+        language: 'ru',
       },
     ],
   },

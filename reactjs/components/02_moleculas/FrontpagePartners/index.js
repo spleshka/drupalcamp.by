@@ -30,6 +30,13 @@ class FrontpagePartners extends React.Component {
                 <img src="/assets/img/partners/la.png" alt="LA.by" />
               </a>
             </div>
+
+            <div className="sponsor">
+              <a href="https://dou.ua" target="_blank">
+                <img src="/assets/img/partners/dou.png" alt="dou.ua" />
+              </a>
+            </div>
+
           </div>
         </div>
       </section>

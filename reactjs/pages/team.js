@@ -93,12 +93,7 @@ const volunteers = [
     name: 'Andrej Podlubnyj',
     nickname: 'andrej.podlubnyj',
     position: 'IT Consultant',
-  },{
-    name: 'Nikolai Tatianenko',
-    nickname: 'nikolai.tatianenko',
-    position: 'Lead Software Engineer @ EPAM Systems',
   },
-
   {
     name: 'Alex Domasevich',
     nickname: 'alex.domasevich',
@@ -251,8 +246,8 @@ const OrganizersPage = () => (
             <ul className="speaker-socials">
               <li><a href="https://ib.by" target="_blank"><span className="fa fa-external-link"/></a></li>
               {/*<li><a href="https://twitter.com/systemseed" target="_blank"><span className="fa fa-twitter"/></a></li>
-              <li><a href="https://www.linkedin.com/company/systemseed" target="_blank"><span className="fa fa-linkedin"/></a></li>
-              <li><a href="https://www.drupal.org/systemseed" target="_blank"><span className="fa fa-drupal"/></a></li>*/}
+              <li><a href="https://www.linkedin.com/company/systemseed" target="_blank"><span className="fa fa-linkedin"/></a></li>*/}
+              <li><a href="https://www.drupal.org/ibby" target="_blank"><span className="fa fa-drupal"/></a></li>
             </ul>
           </div>
         </div>

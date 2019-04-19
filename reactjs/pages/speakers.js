@@ -283,6 +283,22 @@ const speakers = [
     ],
   },
   {
+    name: 'Chris Dykstra',
+    nickname: 'chrisdykstra',
+    position: 'CEO @ DrupalSquad',
+    countries: ['United States of America'],
+    links: [
+      {
+        type: 'twitter',
+        url: 'https://twitter.com/duckstrap',
+      },
+      {
+        type: 'linkedin',
+        url: 'http://www.linkedin.com/in/cdykstra',
+      },
+    ],
+  },
+  {
     name: 'Alexandr Davyskiba',
     nickname: 'zviryatko',
     position: 'Technical Lead @ Ciklum',
@@ -311,6 +327,30 @@ const speakers = [
       {
         type: 'linkedin',
         url: 'https://www.linkedin.com/in/webmorozov',
+      },
+    ],
+  },
+  {
+    name: 'Olga Rabodzei',
+    nickname: 'olgarabodzei',
+    position: 'Team Lead @ Adyax',
+    countries: ['Ukraine'],
+    links: [
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/olga-rabodzei-757867106',
+      },
+    ],
+  },
+  {
+    name: 'Ben Routson',
+    nickname: 'bentekwork',
+    position: 'Manager of Professional Services @ Pantheon',
+    countries: ['United States of America'],
+    links: [
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/benroutson',
       },
     ],
   },
@@ -350,7 +390,7 @@ const speakers = [
     links: [
       {
         type: 'linkedin',
-        url: 'http://ru.linkedin.com/in/nikitinevgeny',
+        url: 'http://www.linkedin.com/in/nikitinevgeny',
       },
     ],
   },
