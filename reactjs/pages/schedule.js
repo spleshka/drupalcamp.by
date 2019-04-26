@@ -135,7 +135,7 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Working with requirements', // TODO: сделать заголовок лучше
+        title: 'It is never just a button. How to balance business, development and architecture needs',
         speakers: ['Pavel Makhrinskyi'],
         language: 'en',
       },
@@ -189,7 +189,7 @@ const sessions = [
       {
         title: 'Drupal 8: Best practise tips for developers',
         speakers: ['Andy Postnikov'],
-        language: 'en', // TODO: To confirm with the speaker
+        language: 'ru',
       },
       {
         title: 'Future of The Voice-Powered Web with Voice Assistants',

@@ -333,7 +333,7 @@ const speakers = [
   {
     name: 'Olga Rabodzei',
     nickname: 'olgarabodzei',
-    position: 'Team Lead @ Adyax',
+    position: 'Senior Drupal Developer @ EPAM',
     countries: ['Ukraine'],
     links: [
       {
