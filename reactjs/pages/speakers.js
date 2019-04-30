@@ -426,11 +426,6 @@ const Speakers = () => (
       ))}
       </div>
 
-      <br />
-      <br />
-      <span className="icon section-icon icon-badges-votes-13" />
-      <h3>More to come - stay tuned</h3>
-
     </div>
   </section>
 );
