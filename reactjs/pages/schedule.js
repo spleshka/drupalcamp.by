@@ -37,9 +37,9 @@ const sessions = [
         language: 'en',
       },
       {
-        title: '[placeholder]',
-        speakers: ['[placeholder]'],
-        //language: 'ru',
+        title: 'Drupal Performance tips: configs optimization, partial caching, BigPipe and ESI',
+        speakers: ['Igor Cheledinov'],
+        language: 'en',
       },
       {
         title: 'Design patterns? Easy!',
@@ -99,8 +99,8 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Drupal Performance tips: configs optimization, partial caching, BigPipe and ESI',
-        speakers: ['Igor Cheledinov'],
+        title: 'It is never just a button. How to balance business, development and architecture needs',
+        speakers: ['Pavel Makhrinskyi'],
         language: 'en',
       },
       {
@@ -135,9 +135,9 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'It is never just a button. How to balance business, development and architecture needs',
-        speakers: ['Pavel Makhrinskyi'],
-        language: 'en',
+        title: 'Катим спринт к релизу',
+        speakers: ['Viacheslav Kasikhin'],
+        language: 'ru',
       },
       {
         title: 'Component based theming in Drupal 8',

@@ -394,6 +394,18 @@ const speakers = [
       },
     ],
   },
+  {
+    name: 'Viacheslav Kasikhin',
+    nickname: 'infanty',
+    position: 'Senior Software Engineer @ Acquia',
+    countries: ['Belarus'],
+    links: [
+      {
+        type: 'linkedin',
+        url: 'https://www.linkedin.com/in/infanty',
+      },
+    ],
+  },
 ];
 
 const Speakers = () => (
