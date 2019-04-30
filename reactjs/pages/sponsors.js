@@ -148,7 +148,7 @@ const individualSponsors = [
   },
   {
     name: 'Boris Yakovito',
-    nickname: 'username',
+    nickname: 'boris.yakovito',
   },
   {
     name: 'Alexander Dubovskoy',

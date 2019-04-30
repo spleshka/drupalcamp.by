@@ -95,6 +95,11 @@ const volunteers = [
     position: 'IT Consultant',
   },
   {
+    name: 'Nikolai Tatianenko',
+    nickname: 'nikolai.tatianenko',
+    position: 'Lead Software Engineer @ EPAM Systems',
+  },
+  {
     name: 'Alex Domasevich',
     nickname: 'alex.domasevich',
     position: 'Team Lead @ Drupal Teams',
