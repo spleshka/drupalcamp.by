@@ -32,7 +32,7 @@ const Tickets = () => (
               <div className="centered">
                 <div className="price" style={{ marginBottom: 0 }}>100</div>
                 <div className="price" style={{ fontSize: '20px' }}>BYN</div>
-                <div style={{ marginBottom: '20px' }}><small>~48 EUR</small></div>
+                <div style={{ marginBottom: '20px' }}><small>~40 EUR</small></div>
                 <h6 className="heading-alt">Buy now</h6>
               </div>
             </a>
