@@ -99,14 +99,14 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'It is never just a button. How to balance business, development and architecture needs',
-        speakers: ['Pavel Makhrinskyi'],
-        language: 'en',
-      },
-      {
         title: 'Observations about selling offshore services',
         speakers: ['Chris Dykstra'],
         language: 'en',
+      },
+      {
+        title: 'Катим спринт к релизу',
+        speakers: ['Viacheslav Kasikhin'],
+        language: 'ru',
       },
       {
         title: 'Tokaido: server-grade local dev environment for Drupal developers',
@@ -135,9 +135,9 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Катим спринт к релизу',
-        speakers: ['Viacheslav Kasikhin'],
-        language: 'ru',
+        title: 'It is never just a button. How to balance business, development and architecture needs',
+        speakers: ['Pavel Makhrinskyi'],
+        language: 'en',
       },
       {
         title: 'Component based theming in Drupal 8',
