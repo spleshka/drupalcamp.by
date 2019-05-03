@@ -42,7 +42,7 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Design patterns? Easy!',
+        title: 'Просто о сложном: Шаблоны проектирования',
         speakers: ['Olga Rabodzei'],
         language: 'ru',
       },
@@ -140,7 +140,7 @@ const sessions = [
         language: 'en',
       },
       {
-        title: 'Component based theming in Drupal 8',
+        title: 'Темизация в Drupal 8 на основе компонентов',
         speakers: ['Evgenii Nikitin'],
         language: 'ru',
       },
