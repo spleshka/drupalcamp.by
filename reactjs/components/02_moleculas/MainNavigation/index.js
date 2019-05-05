@@ -99,18 +99,26 @@ class MainNavigation extends React.Component {
                   </Link>
                 </li>
 
-                <li className="navigation-item">
+                {/*<li className="navigation-item">
                   <Link to="/tickets" prefetch>
                     <a className={`navigation-link ${router.route === '/tickets' ? 'active' : ''}`}>
                       <span onClick={this.onMenuItemClick}>Tickets</span>
                     </a>
                   </Link>
-                </li>
+                </li>*/}
 
                 <li className="navigation-item">
                   <Link to="/schedule" prefetch>
                     <a className={`navigation-link ${router.route === '/schedule' ? 'active' : ''}`}>
                       <span onClick={this.onMenuItemClick}>Schedule</span>
+                    </a>
+                  </Link>
+                </li>
+
+                <li className="navigation-item">
+                  <Link to="/contribution-day" prefetch>
+                    <a className={`navigation-link ${router.route === '/contribution-day' ? 'active' : ''}`}>
+                      <span onClick={this.onMenuItemClick}>Contribution Day</span>
                     </a>
                   </Link>
                 </li>

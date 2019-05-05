@@ -1,20 +1,10 @@
-@media (min-width: 768px) {
-  .nav.nav-schedule {
-    border: none;
+@media (min-width: 992px) {
+  .programm {
+    display: flex;
+    justify-content: space-evenly;
 
-    &:after,
-    &:before {
-      display: none;
-    }
-
-    > li {
+    li {
       width: 33%;
-      background-color: #262627 !important;
-      border: none;
-
-      &:after {
-        display: none;
-      }
 
       &:first-child {
         border-right: 1px solid #333;
@@ -25,40 +15,19 @@
       }
     }
   }
-
-  .schedule-heading {
-    margin-bottom: 80px;
-  }
 }
 
-@media (max-width: 767px) {
-  .nav, .nav.nav-tabs, .nav.nav-schedule, .schedule .tab-content .nav.nav-schedule, .tabs-vertical .nav.nav-tabs {
-    background: none;
-    position: static;
-    padding: 0;
-    margin: 0;
-    max-height: none;
-    display: block;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    
-    a {
-      text-align: center !important;
+@media (max-width: 991px) {
+  .programm {
+
+    li {
+      border-bottom: 1px solid #555;
+      padding-bottom: 30px;
+
+      &:last-child {
+        border: none;
+        padding-bottom: 0;
+      }
     }
-
-    p {
-      color: white !important;
-    }
-  }
-
-  .schedule-heading {
-    margin-bottom: 30px;
-  }
-
-  .schedule {
-    margin-bottom: 20px;
-    background: none;
   }
 }
