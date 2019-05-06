@@ -20,9 +20,9 @@ const Schedule = () => (
                   <p className="text-alt small">May 17, 2019</p>
                 </div>
 
-                {/*<a className="btn btn-lg btn-outline-clr" style={{ margin: '0 50px' }} href="https://www.meetup.com/drupal-minsk/events/261043038/" target="_blank">
+                <a className="btn btn-lg btn-outline-clr" style={{ margin: '0 50px' }} href="https://www.meetup.com/drupal-minsk/events/261043038/" target="_blank">
                   View details
-                </a>*/}
+                </a>
               </li>
 
               <li className="active">
