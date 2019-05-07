@@ -5,33 +5,34 @@ const GlobalFooter = () => (
     <div className="footer-base">
       <div className="container">
 
-        <div className="col-md-3">
-          <ul className="footer-nav">
-            <li className="footer-nav-item">
-              <a href="https://www.drupal.org/dcoc" target="_blank">Code of Conduct</a>
-            </li>
-          </ul>
+        <div className="col-md-3" style={{ marginBottom: '40px' }}>
+          <h6>Diamond Sponsor</h6>
+          <a
+            href="https://drupalsquad.com"
+            title="Drupal Squad"
+          >
+            <img src="/static/assets/img/sponsors/drupalsquad.png" alt="Drupal Squad" style={{ maxWidth: '180px' }} />
+          </a>
+          <br />
         </div>
 
-        <div className="col-md-3">
-          <div className="platform_sh_widget">
-            Hosting sponsored by the
-            <a
-              title="platform.sh"
-              href="https://platform.sh?medium=referral&utm_campaign=sponsored_sites&utm_source=drupalcamp_belarus"
-              target="_blank"
-            >
-              <img
-                className="platformsh-logo"
-                src="/static/assets/img/partners/platformsh.png"
-                alt="Platform.sh logo"
-                style={{ maxWidth: '180px' }}
-              />
-            </a>
-          </div>
+        <div className="col-md-3" style={{ marginBottom: '40px' }}>
+          <h6 style={{ marginBottom: '20px' }}>Gold Sponsor</h6>
+          <img src="/static/assets/img/sponsors/engine-white.png" alt="Engine Eight" style={{ maxWidth: '180px' }} />
         </div>
 
-        <div className="col-md-6 align-right">
+        <div className="col-md-3"  style={{ marginBottom: '40px' }}>
+          <h6>Hosting Sponsor</h6>
+          <a
+            title="platform.sh"
+            href="https://platform.sh?medium=referral&utm_campaign=sponsored_sites&utm_source=drupalcamp_belarus"
+            target="_blank"
+          >
+            <img src="/static/assets/img/partners/platformsh.png" alt="Platform.sh logo" style={{ maxWidth: '180px' }} />
+          </a>
+        </div>
+
+        <div className="col-md-3 align-right">
 
           <ul className="socials-nav align-right">
             <li className="socials-nav-item">
@@ -58,6 +59,10 @@ const GlobalFooter = () => (
 
           <p className="text-alt">
             <small>All Rights Reserved © 2019</small>
+          </p>
+
+          <p>
+            <a href="https://www.drupal.org/dcoc" target="_blank">Code of Conduct</a>
           </p>
         </div>
 

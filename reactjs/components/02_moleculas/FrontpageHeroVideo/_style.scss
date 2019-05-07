@@ -45,6 +45,23 @@
     }
   }
 
+  .diamond-sponsor {
+    position: absolute;
+    z-index: 5;
+    top: 36px;
+    left: calc(50% + 250px);
+    @media (max-width: 991px) {
+      left: calc(50% + 150px);
+    }
+    @media (max-width: 767px) {
+      display: none;
+    }
+
+    img {
+      width: 200px;
+    }
+  }
+
   .down-arrow {
     border: 1px solid white;
     border-radius: 50%;

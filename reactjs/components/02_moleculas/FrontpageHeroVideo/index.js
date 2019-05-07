@@ -49,6 +49,10 @@ class FrontpageHeroVideo extends React.Component {
         </div>
       </div>
 
+      <div className="diamond-sponsor">
+        <img src="/static/assets/img/sponsors/drupalsquad.png" alt="Drupal Squad" />
+      </div>
+
       <div className="heading-block centered-block align-center">
         <div className="container">
           <div id="logo">
