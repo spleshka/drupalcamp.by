@@ -21,7 +21,7 @@ const team = [
   {
     name: 'Yauhen Zenko',
     nickname: 'zeuty',
-    position: 'Technical Lead @ We Are You',
+    position: 'Technical Lead @ Engine Eight',
     countries: ['Netherlands'],
     links: [
       {
@@ -199,7 +199,7 @@ const OrganizersPage = () => (
 
         <div className="col-sm-3">
           <div className="speaker">
-            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px', alignItems: 'center' }}>
               <img src="/assets/img/organizers/drupalsquad.png" alt="DrupalSquad / Anakreon" className="img-responsive" style={{ margin: 'auto' }} />
             </div>
             {/*<h3 className="name">DrupalSquad / Anakreon</h3>*/}
@@ -214,22 +214,22 @@ const OrganizersPage = () => (
 
         <div className="col-sm-3">
           <div className="speaker">
-            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
-              <img src="/assets/img/organizers/colours.jpg" alt="Colours" className="img-responsive" style={{ margin: 'auto' }} />
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px', alignItems: 'center' }}>
+              <img src="/assets/img/sponsors/engine-black.png" alt="Colours" className="img-responsive" style={{ margin: 'auto' }} />
             </div>
             {/*<h3 className="name">Colours</h3>*/}
-            <ul className="speaker-socials">
+           {/* <ul className="speaker-socials">
               <li><a href="https://colours.nl" target="_blank"><span className="fa fa-external-link"/></a></li>
               <li><a href="https://twitter.com/Coloursinternet" target="_blank"><span className="fa fa-twitter"/></a></li>
               <li><a href="https://www.linkedin.com/company/colours_2" target="_blank"><span className="fa fa-linkedin"/></a></li>
               <li><a href="https://www.drupal.org/colours" target="_blank"><span className="fa fa-drupal"/></a></li>
-            </ul>
+            </ul>*/}
           </div>
         </div>
 
         <div className="col-sm-3">
           <div className="speaker">
-            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px', alignItems: 'center' }}>
               <img src="/assets/img/organizers/systemseed.png" alt="SystemSeed" className="img-responsive" style={{ margin: 'auto' }} />
             </div>
             {/*<h3 className="name">SystemSeed</h3>*/}
@@ -244,7 +244,7 @@ const OrganizersPage = () => (
 
         <div className="col-sm-3">
           <div className="speaker">
-            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px' }}>
+            <div className="photo-wrapper" style={{ height: '150px', display: 'flex', width: '300px', border: '2px solid #e9e9e9', padding: '20px', alignItems: 'center' }}>
               <img src="/assets/img/organizers/Ibby.png" alt="IBBY" className="img-responsive" style={{ margin: 'auto', maxHeight: '100%' }} />
             </div>
             {/*<h3 className="name">SystemSeed</h3>*/}

@@ -221,7 +221,7 @@ const speakers = [
   {
     name: 'Andrey Posudevsky',
     nickname: 'aposudevsky',
-    position: 'Team Lead @ We are you',
+    position: 'Team Lead @ Engine Eight',
     countries: ['Netherlands'],
     links: [
       {
