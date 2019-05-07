@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const sessions = [
   {
@@ -233,10 +234,37 @@ const sessions = [
 
 const Schedule = () => (
   <section className="section align-center speakers mobile-padding" style={{background: '#262627'}}>
+
+    <div className="container">
+      <div className="row">
+
+        <div className="col-md-6" style={{ marginBottom: '50px' }}>
+          <span className="icon section-icon icon-food-12"/>
+          <h3 style={{ color: 'white' }}>Pre Party</h3>
+          <p className="text-alt">May 17, 2019</p>
+          <a className="btn btn-lg btn-outline-clr" style={{ margin: '0 50px' }} href="https://www.meetup.com/drupal-minsk/events/261043038/" target="_blank">
+            View details
+          </a>
+        </div>
+
+        <div className="col-md-6" style={{ marginBottom: '50px' }}>
+          <span className="icon section-icon icon-sport-18"/>
+          <h3 style={{ color: 'white' }}>Contribution Day</h3>
+          <p className="text-alt">May 19, 2019</p>
+          <Link href="/contribution-day">
+            <a className="btn btn-lg btn-outline-clr" style={{ margin: '0 50px' }}>
+              View details
+            </a>
+          </Link>
+        </div>
+
+      </div>
+    </div>
+
     <div className="container">
 
       <span className="icon section-icon icon-office-21"/>
-      <h3 style={{ color: 'white' }}>Schedule: Sessions Day</h3>
+      <h3 style={{ color: 'white' }}>Sessions Day</h3>
       <p className="text-alt">May 18, 2019</p>
 
       <br/>
