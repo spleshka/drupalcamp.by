@@ -106,8 +106,8 @@ const Travellers = () => (
         <div className="col-sm-6 fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>What to expect</h4>
-            <p>Learn while helping improve Drupal core and modules! Plenty of mentors will be available to help you get started. If you're not sure where to start contributing, or not even sure about the whole contribution thing, this is for you!</p>
-            <p>We'll kick things off with a brief introduction, and then we'll help match people with issues that are right for their skill levels and areas of interest. Free training is also provided to help new contributors set up a development environment and learn about the contribution process.</p>
+            <p>Learn while helping improve Drupal! Plenty of mentors will be available to help you get started. If you're not sure where to start contributing, or not even sure about the whole contribution thing, this is for you!</p>
+            <p>We'll kick things off with a brief introduction, and then we'll help match people with issues that are right for their skill levels and areas of interest. Free training (if needed) is also provided to help new contributors set up a development environment and learn about the contribution process.</p>
           </article>
         </div>
       </div>
@@ -121,7 +121,7 @@ const Travellers = () => (
         <div className="col-sm-6 col-sm-offset-6 align-left fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>Who it's for</h4>
-            <p>This Contribution Day is intended for first-time contributors and anyone with Drupal site building / development experience to learn how to contribute to Drupal core and its modules. Our mentors will help match tasks suitable for programmers and non-programmers alike.</p>
+            <p>This Contribution Day is intended for first-time contributors and anyone with Drupal site building / development experience to learn how to contribute to Drupal (core, modules, translations, etc). Our mentors will help match tasks suitable for programmers and non-programmers alike.</p>
             <p>We particularly welcome participants from all experience levels, backgrounds, genders, races, sexual identities, religions, ages, abilities and other marginalized groups in our community to participate. The world is diverse and we can only make the best Drupal experience for everyone with your inclusion.</p>
           </article>
         </div>
@@ -136,7 +136,7 @@ const Travellers = () => (
         <div className="col-sm-6 fullwidth-column">
           <article>
             <h4 style={{marginBottom: '20px'}}>Why come</h4>
-            <p>If you're like most Drupal users, you've been telling yourself for months that you should start contributing to Drupal. This sprint is your chance to get started with in-person training and mentoring from friendly, experienced contributors. If you've already started to work on core or modules, come meet other contributors, hang out in person, and work on manageable tasks in the issue queues. The goal is to help you to improve Drupal ecosystem.</p>
+            <p>If you're like most Drupal users, you've been telling yourself for months that you should start contributing to Drupal. This event is your chance to get started with in-person training and mentoring from friendly, experienced contributors. If you've already started to work on core, distributions, modules or translations, come meet other contributors, hang out in person, and work on manageable tasks in the issue queues. The goal is to help you to improve Drupal ecosystem.</p>
           </article>
         </div>
       </div>
@@ -153,7 +153,7 @@ const Travellers = () => (
             <p>You're expected to bring just 2 things with you:</p>
             <ul>
               <li>- An interest in Drupal contribution</li>
-              <li>- A laptop with a Drupal 8 development environment</li>
+              <li>- A laptop with or even without a Drupal 8 development environment, because everyone has something to contribute!</li>
             </ul>
           </article>
         </div>

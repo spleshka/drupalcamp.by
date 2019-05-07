@@ -397,7 +397,7 @@ const speakers = [
   {
     name: 'Viacheslav Kasikhin',
     nickname: 'infanty',
-    position: 'Senior Software Engineer @ Acquia',
+    position: 'Lead Developer @ FTCS',
     countries: ['Belarus'],
     links: [
       {
