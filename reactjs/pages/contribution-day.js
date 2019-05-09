@@ -80,7 +80,28 @@ const Travellers = () => (
       </div>
     </section>
 
-    <section className="fullwidth-section" style={{ marginBottom: 0}}>
+    <section className="section overlay align-center light-text">
+      <div className="container">
+
+        <span className="icon section-icon icon-travel-transportation-04" />
+        <h2>Register to Contribution Day now!</h2>
+        <p>Make a difference by your contribution to Open Source</p>
+
+        <br/>
+        <br/>
+
+        <a
+          href="https://docs.google.com/spreadsheets/d/1fiGAz3pJianOcC2zzp2_lUoNmysy2BzVfQuajvPsl-w/edit#gid=0"
+          className="btn btn-lg"
+          target="_blank"
+        >
+          Sign Up
+        </a>
+
+      </div>
+    </section>
+
+    <section className="fullwidth-section" style={{ marginTop: 0}}>
 
       {/* WHERE */}
       <div className="fullwidth-path">
@@ -159,27 +180,6 @@ const Travellers = () => (
         </div>
       </div>
 
-    </section>
-
-    <section className="section overlay align-center light-text">
-      <div className="container">
-
-        <span className="icon section-icon icon-travel-transportation-04" />
-        <h2>Register to Contribution Day now!</h2>
-        <p>Make a difference by your contribution to Open Source</p>
-
-        <br/>
-        <br/>
-
-        <a
-          href="https://docs.google.com/spreadsheets/d/1fiGAz3pJianOcC2zzp2_lUoNmysy2BzVfQuajvPsl-w/edit#gid=0"
-          className="btn btn-lg"
-          target="_blank"
-        >
-          Sign Up
-        </a>
-
-      </div>
     </section>
 
     <section className="section align-center speakers">
