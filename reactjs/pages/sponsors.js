@@ -27,11 +27,11 @@ const platinumSponsors = [
 ];
 
 const goldSponsors = [
-/*  {
-    name: 'Colours',
-    imageURL: '/assets/img/organizers/colours.jpg',
+  {
+    name: 'EngineEight',
+    imageURL: '/static/assets/img/sponsors/engine-black.png',
     socials: [
-      {
+      /*{
         type: 'external-link',
         url: 'https://colours.nl'
       },
@@ -46,9 +46,9 @@ const goldSponsors = [
       {
         type: 'drupal',
         url: 'https://www.drupal.org/colours'
-      },
+      },*/
     ]
-  },*/
+  },
 ];
 
 const silverSponsors = [
@@ -182,6 +182,22 @@ const individualSponsors = [
     name: 'Alex Lyzo',
     nickname: 'alex.lyzo',
   },
+  {
+    name: 'Evgeniy Melnikov',
+    nickname: 'evgeniy.melnikov',
+  },
+  {
+    name: 'Maksim Layeuski',
+    nickname: 'username',
+  },
+  {
+    name: 'Dmitry Sergey',
+    nickname: 'username',
+  },
+  {
+    name: 'Lukasevich Basil',
+    nickname: 'username',
+  },
 ];
 
 const Sponsors = () => (
@@ -207,7 +223,8 @@ const Sponsors = () => (
                 display: 'flex',
                 width: '350px',
                 border: '2px solid #e9e9e9',
-                padding: '20px'
+                padding: '20px',
+                alignItems: 'center',
               }}>
                 <img src={sponsor.imageURL} alt={sponsor.name} title={sponsor.name} className="img-responsive" style={{margin: 'auto'}}/>
               </div>
@@ -236,7 +253,8 @@ const Sponsors = () => (
                 display: 'flex',
                 width: '350px',
                 border: '2px solid #e9e9e9',
-                padding: '20px'
+                padding: '20px',
+                alignItems: 'center',
               }}>
                 <img src={sponsor.imageURL} alt={sponsor.name} title={sponsor.name} className="img-responsive" style={{margin: 'auto'}}/>
               </div>
@@ -265,7 +283,8 @@ const Sponsors = () => (
                 display: 'flex',
                 width: '350px',
                 border: '2px solid #e9e9e9',
-                padding: '20px'
+                padding: '20px',
+                alignItems: 'center',
               }}>
                 <img src={sponsor.imageURL} alt={sponsor.name} title={sponsor.name} className="img-responsive" style={{margin: 'auto'}}/>
               </div>
@@ -294,7 +313,8 @@ const Sponsors = () => (
                 display: 'flex',
                 width: '350px',
                 border: '2px solid #e9e9e9',
-                padding: '20px'
+                padding: '20px',
+                alignItems: 'center',
               }}>
                 <img src={sponsor.imageURL} alt={sponsor.name} title={sponsor.name} className="img-responsive" style={{margin: 'auto', maxHeight: '100%'}}/>
               </div>
