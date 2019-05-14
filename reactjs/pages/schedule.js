@@ -117,9 +117,14 @@ const sessions = [
     ],
   },
   {
-    time: 'Lunch',
+    time: '13:30 - 14:20 Lunch',
     type: 'break',
     icon: 'icon-food-16',
+  },
+  {
+    time: '14:20 - 14:30 Group Photo',
+    type: 'break',
+    icon: 'icon-office-31',
   },
   {
     time: '14:30 - 15:15',
