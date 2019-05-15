@@ -188,15 +188,15 @@ const individualSponsors = [
   },
   {
     name: 'Maksim Layeuski',
-    nickname: 'username',
+    nickname: 'maksim.laeuski',
   },
   {
     name: 'Dmitry Sergey',
-    nickname: 'username',
+    nickname: 'dmitry.sergey',
   },
   {
     name: 'Lukasevich Basil',
-    nickname: 'username',
+    nickname: 'vasily.lukasevich',
   },
 ];
 
