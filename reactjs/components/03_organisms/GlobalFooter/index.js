@@ -18,7 +18,12 @@ const GlobalFooter = () => (
 
         <div className="col-md-3" style={{ marginBottom: '40px' }}>
           <h6 style={{ marginBottom: '20px' }}>Gold Sponsor</h6>
-          <img src="/static/assets/img/sponsors/engine-white.png" alt="Engine Eight" style={{ maxWidth: '180px' }} />
+          <a
+            href="https://www.engine-eight.com"
+            title="Engihe Eight"
+          >
+            <img src="/static/assets/img/sponsors/engine-white.png" alt="Engine Eight" style={{ maxWidth: '180px' }} />
+          </a>
         </div>
 
         <div className="col-md-3"  style={{ marginBottom: '40px' }}>
