@@ -204,7 +204,7 @@ const sessions = [
       },
       {
         title: 'Panel Talk: Headless VS Traditional Drupal',
-        speakers: ['[placeholder]'], // TODO: To put speakers
+        speakers: ['Multiple speakers'],
         language: 'en',
       },
       {
