@@ -218,12 +218,12 @@ const OrganizersPage = () => (
               <img src="/assets/img/sponsors/engine-black.png" alt="Colours" className="img-responsive" style={{ margin: 'auto' }} />
             </div>
             {/*<h3 className="name">Colours</h3>*/}
-           {/* <ul className="speaker-socials">
-              <li><a href="https://colours.nl" target="_blank"><span className="fa fa-external-link"/></a></li>
-              <li><a href="https://twitter.com/Coloursinternet" target="_blank"><span className="fa fa-twitter"/></a></li>
-              <li><a href="https://www.linkedin.com/company/colours_2" target="_blank"><span className="fa fa-linkedin"/></a></li>
-              <li><a href="https://www.drupal.org/colours" target="_blank"><span className="fa fa-drupal"/></a></li>
-            </ul>*/}
+            <ul className="speaker-socials">
+              <li><a href="https://www.engine-eight.com" target="_blank"><span className="fa fa-external-link"/></a></li>
+              <li><a href="https://twitter.com/EngineEight" target="_blank"><span className="fa fa-twitter"/></a></li>
+              <li><a href="https://www.instagram.com/engine.eight" target="_blank"><span className="fa fa-instagram"/></a></li>
+              <li><a href="https://www.facebook.com/engineeight" target="_blank"><span className="fa fa-facebook"/></a></li>
+            </ul>
           </div>
         </div>
 
