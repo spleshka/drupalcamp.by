@@ -31,22 +31,22 @@ const goldSponsors = [
     name: 'EngineEight',
     imageURL: '/static/assets/img/sponsors/engine-black.png',
     socials: [
-      /*{
+      {
         type: 'external-link',
-        url: 'https://colours.nl'
+        url: 'https://www.engine-eight.com'
       },
       {
         type: 'twitter',
-        url: 'https://twitter.com/Coloursinternet'
+        url: 'https://twitter.com/EngineEight'
       },
       {
-        type: 'linkedin',
-        url: 'https://www.linkedin.com/company/colours_2'
+        type: 'instagram',
+        url: 'https://www.instagram.com/engine.eight/'
       },
       {
-        type: 'drupal',
-        url: 'https://www.drupal.org/colours'
-      },*/
+        type: 'facebook',
+        url: 'https://www.facebook.com/engineeight/'
+      },
     ]
   },
 ];
@@ -197,6 +197,10 @@ const individualSponsors = [
   {
     name: 'Lukasevich Basil',
     nickname: 'vasily.lukasevich',
+  },
+  {
+    name: 'Roman Agabekov',
+    nickname: 'roman.agabekov',
   },
 ];
 
